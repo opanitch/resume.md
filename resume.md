@@ -13,9 +13,9 @@ line. It is intended to be used for contact details -->
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
-CEO and Software Engineer with knowledge of applied information theory,
-including optimizing lossless compression schema of both the length-limited and
-adaptive variants.
+As a highly experienced UX Developer with 10 years experience, I've seen a wide variety of projects and development stacks. What I have worked on ranges from personal websites to enterprise-class web applications, utilizing a combination of ingenuity, developer tools, and front-end frameworks. My recent experience covers React / Redux, Typescript, and Tailwind in a Node.js / npm environment.
+
+Other relevant code experience includes HTML, CSS3 / LESS / SASS, Javascript, jQuery, PHP, JAVA (JSP / JSTL), YAML, and WordPress
 
 ## Programming Knowledge
 
@@ -25,7 +25,7 @@ hand -->
 - JS / ES6
 - React / Redux
 - Enzyme / Jest
-- AJAX / JQuery
+- AJAX / jQuery
 - Typescript
 - HTML5 / CSS3
 - Tailwind / SASS / LESS
