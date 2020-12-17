@@ -1,17 +1,26 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-
 <div id="header">
 
+  <img src="./images/icons/face-profile.svg" alt="Oren Panitch" />
+
+  <div>
+  
   <h1>Oren Panitch</h1>
+
+  <h2>Front-End Developer & IoT Hobbiest</h2>
+
+  </div>
 
   <!-- The unordered list immediately after the h1 will be formatted on a single
   line. It is intended to be used for contact details -->
 
   <ul>
-    <li><img src="./images/icons/at.svg" /><a href="mailto:oren@opanitch.com">oren@opanitch.com</a></li>
-    <li>(215) 840-2837</li>
-    <li><a href="http://opanitch.com">opanitch.com</a></li>
-    <li>Philadelphia, PA</li>
+    <li><div class="icon"><img src="./images/icons/at.svg" /></div> <a href="mailto:oren@opanitch.com">oren@opanitch.com</a></li>
+    <li><div class="icon"><img src="./images/icons/linkedin.svg" /></div> <a href="mailto:oren@opanitch.com">opanitch</a>
+    </li>
+    <li><div class="icon"><img src="./images/icons/map-marker.svg" /></div> <a href="https://www.google.com/maps/place/Philadelphia,+PA/@40.0024137,-75.2581124,11z">Philadelphia, PA</a></li>
+    <li><div class="icon"><img src="./images/icons/web.svg" /></div> <a href="http://opanitch.com">opanitch.com</a></li>
+    <li><div class="icon"><img src="./images/icons/phone.svg" /></div> <a href="tel:12158402837">(215) 840-2837</a></li>
   </ul>
 
 </div>
@@ -26,7 +35,7 @@ is intended to be used for a short summary. -->
   <p>Other relevant code experience includes HTML, CSS3 / LESS / SASS, Javascript, jQuery, PHP, JAVA (JSP / JSTL), Lovelace, YAML, JSON, Bash, Gulp, and WordPress</p>
 
 </div>
-<div markdown="1" id="progamming-knowledge" class="">
+<div markdown="1" id="programming-knowledge" class="">
 
   <h2>Programming Knowledge</h2>
 

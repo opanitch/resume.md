@@ -1,6 +1,6 @@
 body {
   color: #000000;
-  background: #eeeeee;
+  background-color: #eeeeee;
   font: 1.1em "Times New Roman";
   line-height: 1.2;
   margin: 40px 0;
@@ -9,21 +9,18 @@ body {
   margin: 0 auto;
   max-width: 800px;
   padding: 40px 60px;
-  background: #ffffff;
+  background-color: #ffffff;
   border: 1px solid #cccccc;
   box-shadow: 2px 2px 4px #aaaaaa;
   -webkit-box-shadow: 2px 2px 4px #aaaaaa;
 }
+/* Font Reset and default style */
 h1 {
-  text-transform: uppercase;
-  text-align: center;
   font-size: 200%;
   margin: 0;
   padding: 0;
 }
 h2 {
-  border-bottom: 1px solid #000000;
-  text-transform: uppercase;
   font-size: 130%;
   /* margin: 1em 0 0 0; */
   margin: 0;
@@ -34,34 +31,104 @@ h3 {
   /* margin: 0.8em 0 0.3em 0; */
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
 }
 h4 {
   font-size: 85%;
   /* margin: 0.8em 0 0.3em 0; */
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
 }
 p {
   /* margin: 0 0 0.5em 0; */
   margin: 0;
   padding: 0;
 }
+a {
+  display: inline;
+  text-decoration: none;
+  color: #08c;
+}
 ul {
   padding: 0;
-  margin: 0 1.5em;
+  margin: 0 0 0 1.5em;
   list-style: none;
 }
 li {
   padding: 0;
   margin: 0;
   display: flex;
+}
+/* END Style reset and default styles */
+
+/* General Styles */
+.icon {
+  width: 36px;
+  height: 36px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #08c;
+  border-radius: 40px;
+}
+.icon > img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg)
+    brightness(106%) contrast(101%);
+}
+/* END General Styles */
+
+/* Header Styles */
+#header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#header > img {
+  width: 10%;
+  flex-grow: 1;
+}
+#header > div {
+  width: 40%;
+  flex-grow: 2;
+  text-align: left;
+}
+#header > ul {
+  width: 50%;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 2;
+  flex-wrap: wrap;
+}
+#header > ul > li {
+  width: 50%;
+  margin-bottom: 5px;
   align-items: center;
 }
+#header > ul > li:last-child {
+  margin-bottom: 0;
+}
 
+/* Programming Knowledge Styles */
+#programming-knowledge {
+}
+#programming-knowledge ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#programming-knowledge ul > li {
+  width: 33%;
+  text-align: left;
+}
+
+/* For PDF */
 @media print {
   body {
     font-size: 10pt;
@@ -85,6 +152,15 @@ li {
   a:hover {
     color: #000000;
     text-decoration: underline;
+  }
+
+  .icon {
+    margin-right: 5px;
+    background-color: transparent;
+  }
+
+  #header > ul > li {
+    margin-bottom: 0;
   }
 }
 @page {
