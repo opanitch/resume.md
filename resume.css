@@ -1,14 +1,19 @@
 body {
   color: #000000;
   background-color: #eeeeee;
-  font: 1.1em "Times New Roman";
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
   line-height: 1.2;
   margin: 40px 0;
+}
+body * {
+  box-sizing: border-box;
 }
 #resume {
   margin: 0 auto;
   max-width: 800px;
-  padding: 40px 60px;
+  padding: 40px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
   box-shadow: 2px 2px 4px #aaaaaa;
@@ -16,30 +21,29 @@ body {
 }
 /* Font Reset and default style */
 h1 {
-  font-size: 200%;
+  font-size: 2.5em;
   margin: 0;
   padding: 0;
 }
 h2 {
-  font-size: 130%;
+  font-size: 2em;
   /* margin: 1em 0 0 0; */
   margin: 0;
   padding: 0;
 }
 h3 {
-  font-size: 100%;
+  font-size: 1.3em;
   /* margin: 0.8em 0 0.3em 0; */
   margin: 0;
   padding: 0;
 }
 h4 {
-  font-size: 85%;
+  font-size: 1em;
   /* margin: 0.8em 0 0.3em 0; */
   margin: 0;
   padding: 0;
 }
 p {
-  /* margin: 0 0 0.5em 0; */
   margin: 0;
   padding: 0;
 }
@@ -62,8 +66,8 @@ li {
 
 /* General Styles */
 .icon {
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   margin: 0 10px 0 0;
   padding: 0;
   display: flex;
@@ -73,8 +77,8 @@ li {
   border-radius: 40px;
 }
 .icon > img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -85,35 +89,57 @@ li {
 
 /* Header Styles */
 #header {
+  margin-bottom: 20px;
   display: flex;
+  align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 #header > img {
-  width: 10%;
-  flex-grow: 1;
+  width: 100px;
+  height: 100px;
 }
 #header > div {
-  width: 40%;
-  flex-grow: 2;
-  text-align: left;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#header > div > h1 {
+  /* text-transform: uppercase; */
+}
+#header > div > h2 {
+  font-size: 1.2em;
 }
 #header > ul {
-  width: 50%;
-  margin: 0;
+  width: 365px;
+  height: 105px;
+  margin: 5px 0 0;
   display: flex;
-  flex-direction: row-reverse;
-  flex-grow: 2;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 #header > ul > li {
-  width: 50%;
   margin-bottom: 5px;
-  align-items: center;
 }
 #header > ul > li:last-child {
   margin-bottom: 0;
 }
+#header > ul > li > a {
+  display: flex;
+  align-items: center;
+}
+/* END Header Styles */
+
+/* Intro Styles */
+#intro {
+  margin-bottom: 15px;
+}
+#intro p + p {
+  margin-top: 0.5em;
+}
+/* END Intro Styles */
 
 /* Programming Knowledge Styles */
 #programming-knowledge {

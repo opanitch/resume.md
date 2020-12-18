@@ -7,7 +7,7 @@
   
   <h1>Oren Panitch</h1>
 
-  <h2>Front-End Developer & IoT Hobbiest</h2>
+  <h2>UX Developer & IoT Hobbiest</h2>
 
   </div>
 
@@ -15,12 +15,11 @@
   line. It is intended to be used for contact details -->
 
   <ul>
-    <li><div class="icon"><img src="./images/icons/at.svg" /></div> <a href="mailto:oren@opanitch.com">oren@opanitch.com</a></li>
-    <li><div class="icon"><img src="./images/icons/linkedin.svg" /></div> <a href="mailto:oren@opanitch.com">opanitch</a>
-    </li>
-    <li><div class="icon"><img src="./images/icons/map-marker.svg" /></div> <a href="https://www.google.com/maps/place/Philadelphia,+PA/@40.0024137,-75.2581124,11z">Philadelphia, PA</a></li>
-    <li><div class="icon"><img src="./images/icons/web.svg" /></div> <a href="http://opanitch.com">opanitch.com</a></li>
-    <li><div class="icon"><img src="./images/icons/phone.svg" /></div> <a href="tel:12158402837">(215) 840-2837</a></li>
+    <li><a href="mailto:oren@opanitch.com"><span class="icon"><img src="./images/icons/at.svg" /></span><span>oren@opanitch.com</a></span></li>
+    <li><a href="mailto:oren@opanitch.com"><span class="icon"><img src="./images/icons/linkedin.svg" /></span><span>opanitch</span></a></li>
+    <li><a href="https://www.google.com/maps/place/Philadelphia,+PA/@40.0024137,-75.2581124,11z"><span class="icon"><img src="./images/icons/map-marker.svg" /></span><span>Philadelphia, PA</span></a></li>
+    <li><a href="http://opanitch.com"><span class="icon"><img src="./images/icons/web.svg" /></span><span>opanitch.com</span></a></li>
+    <li><a href="tel:12158402837"><span class="icon"><img src="./images/icons/phone.svg" /></span><span>(215) 840-2837</span></a></li>
   </ul>
 
 </div>
@@ -35,12 +34,10 @@ is intended to be used for a short summary. -->
   <p>Other relevant code experience includes HTML, CSS3 / LESS / SASS, Javascript, jQuery, PHP, JAVA (JSP / JSTL), Lovelace, YAML, JSON, Bash, Gulp, and WordPress</p>
 
 </div>
-<div markdown="1" id="programming-knowledge" class="">
+<!-- <div id="programming-knowledge" class="">
 
   <h2>Programming Knowledge</h2>
 
-  <!-- You have to wrap the "left" and "right" half of these headings in spans by
-  hand -->
   <ul>
     <li>JS / ES6</li>
     <li>React / Redux</li>
@@ -56,7 +53,7 @@ is intended to be used for a short summary. -->
     <li>JAVA (JSP / JSTL)</li>
   </ul>
 
-</div>
+</div> -->
 <div id="work-experience" class="">
 
   <h2>Work Experience</h2>
@@ -109,7 +106,7 @@ is intended to be used for a short summary. -->
 </div>
 <div id="education" class="">
 
-<h2>Education</h2>
+  <h2>Education</h2>
 
   <p>Drexel University, Philadelphia, PA<br />
   Bachelor of Science, 2011<br />
