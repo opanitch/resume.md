@@ -56,7 +56,7 @@ is intended to be used for a short summary. -->
 </div> -->
 <div id="work-experience" class="">
 
-  <h2>Work Experience</h2>
+<span class="section-header"><span class="icon"><img src="./images/icons/briefcase.svg" /></span><h2>Work Experience</h2></span>
 
   <!-- You have to wrap the "left" and "right" half of these headings in spans by
   hand -->
@@ -94,7 +94,7 @@ is intended to be used for a short summary. -->
 </div>
 <div id="honors" class="">
 
-  <h2>Honors & Awards</h2>
+<span class="section-header"><span class="icon"><img src="./images/icons/trophy.svg" /></span><h2>Honors & Awards</h2></span>
 
   <ul>
     <li>IKEA Interactive Seasonal Catalog – WEBBY Award Honoree</li>
@@ -106,7 +106,7 @@ is intended to be used for a short summary. -->
 </div>
 <div id="education" class="">
 
-  <h2>Education</h2>
+<span class="section-header"><span class="icon"><img src="./images/icons/school.svg" /></span><h2>Education</h2></span>
 
   <p>Drexel University, Philadelphia, PA<br />
   Bachelor of Science, 2011<br />
@@ -115,7 +115,7 @@ is intended to be used for a short summary. -->
 </div>
 <div id="hobbies" class="">
 
-  <h2>Hobbies</h2>
+<span class="section-header"><span class="icon"><img src="./images/icons/gamepad-variant.svg" /></span><h2>Hobbies</h2></span>
 
   <ul>
     <li>Photography</li>

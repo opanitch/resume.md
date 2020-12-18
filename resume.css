@@ -19,6 +19,7 @@ body * {
   box-shadow: 2px 2px 4px #aaaaaa;
   -webkit-box-shadow: 2px 2px 4px #aaaaaa;
 }
+
 /* Font Reset and default style */
 h1 {
   font-size: 2.5em;
@@ -27,19 +28,16 @@ h1 {
 }
 h2 {
   font-size: 2em;
-  /* margin: 1em 0 0 0; */
   margin: 0;
   padding: 0;
 }
 h3 {
   font-size: 1.3em;
-  /* margin: 0.8em 0 0.3em 0; */
   margin: 0;
   padding: 0;
 }
 h4 {
   font-size: 1em;
-  /* margin: 0.8em 0 0.3em 0; */
   margin: 0;
   padding: 0;
 }
@@ -84,6 +82,11 @@ li {
   display: inline-block;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(106deg)
     brightness(106%) contrast(101%);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
 }
 /* END General Styles */
 
@@ -140,6 +143,11 @@ li {
   margin-top: 0.5em;
 }
 /* END Intro Styles */
+
+/* Work Experience Styles */
+#work-experience {
+}
+/* END Work Experience Styles */
 
 /* Programming Knowledge Styles */
 #programming-knowledge {
