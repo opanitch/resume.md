@@ -246,6 +246,11 @@ li {
     text-decoration: underline;
   }
 
+  .w-2-5,
+  .w-3-5 {
+    width: 100%;
+  }
+
   .container {
     display: block;
   }
@@ -257,6 +262,10 @@ li {
 
   #header > ul > li {
     margin-bottom: 0;
+  }
+
+  #work-experience {
+    padding-right: 0;
   }
 }
 @page {
