@@ -1,25 +1,50 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
 <div id="header">
 
+  <div class="identity">
   <img src="./images/icons/face-profile.svg" alt="Oren Panitch" />
 
   <div>
-  
   <h1>Oren Panitch</h1>
 
   <h2>UX Developer & IoT Hobbiest</h2>
-
+  </div>
   </div>
 
   <!-- The unordered list immediately after the h1 will be formatted on a single
   line. It is intended to be used for contact details -->
 
   <ul>
-    <li><a href="mailto:oren@opanitch.com"><span class="icon"><img src="./images/icons/at.svg" /></span><span>oren@opanitch.com</a></span></li>
-    <li><a href="mailto:oren@opanitch.com"><span class="icon"><img src="./images/icons/linkedin.svg" /></span><span>opanitch</span></a></li>
-    <li><a href="https://www.google.com/maps/place/Philadelphia,+PA/@40.0024137,-75.2581124,11z"><span class="icon"><img src="./images/icons/map-marker.svg" /></span><span>Philadelphia, PA</span></a></li>
-    <li><a href="http://opanitch.com"><span class="icon"><img src="./images/icons/web.svg" /></span><span>opanitch.com</span></a></li>
-    <li><a href="tel:12158402837"><span class="icon"><img src="./images/icons/phone.svg" /></span><span>(215) 840-2837</span></a></li>
+    <li>
+    <a href="mailto:oren@opanitch.com">
+    <span class="icon"><img src="./images/icons/at.svg" alt="email" /></span>
+    <span>oren@opanitch.com</span>
+    </a>
+    </li>
+    <li>
+    <a href="tel:12158402837">
+    <span class="icon"><img src="./images/icons/phone.svg" alt="phone" /></span>
+    <span>(215) 840-2837</span>
+    </a>
+    </li>
+    <li>
+    <a href="http://opanitch.com">
+    <span class="icon"><img src="./images/icons/web.svg" alt="website" /></span>
+    <span>opanitch.com</span>
+    </a>
+    </li>
+    <li>
+    <a href="mailto:oren@opanitch.com">
+    <span class="icon"><img src="./images/icons/linkedin.svg" alt="linkedin" /></span>
+    <span>in/opanitch</span>
+    </a>
+    </li>
+    <li>
+    <a href="https://www.google.com/maps/place/Philadelphia,+PA/@40.0024137,-75.2581124,11z">
+    <span class="icon"><img src="./images/icons/map-marker.svg" alt="location" /></span>
+    <span>Philadelphia, PA</span>
+    </a>
+    </li>
   </ul>
 
 </div>
@@ -38,7 +63,9 @@ is intended to be used for a short summary. -->
 <div class="column w-3-5">
 <div id="work-experience" class="">
 
-<div class="section-header"><span class="icon"><img src="./images/icons/briefcase.svg" /></span><h2>Work Experience</h2></div>
+<div class="section-header">
+<h2><span class="icon"><img src="./images/icons/briefcase.svg" /></span>Work Experience</h2>
+</div>
 
   <!-- You have to wrap the "left" and "right" half of these headings in spans by
   hand -->
@@ -71,14 +98,14 @@ is intended to be used for a short summary. -->
 
   <h3>True Action/eBay Enterprise <span>June 2013 to April 2016</span></h3>
 
-  <h4>Team Lead, Front-End UX Development <span>King of Prussia, PA</span></h4>
+  <h4>Team Lead, UX Development <span>King of Prussia, PA</span></h4>
 
   <p class="job-description">I started at True Action as a contractor as the company began its reorganization and rebranding effort after being bought by eBay in 2011. I began working on Global Sports Inc’s JAVA based v9/v10 platform where I worked on large brands such as Dick’s Sporting Goods, Speedo, iRobot, and many more. Projects ranged in scope from small content updates to feature additions including product page zooms and Express Shop overlays, and redesigns including everything from page redesigns to whole brand redesigns. Approximately 6 months after my employment as a contractor, I became a full time employee of the company and was promoted to the lead position of my team. Besides development work, my expanded responsibilities included estimating the time and scope of all the projects submitted to my team, coordinating workload bandwidth with project managers, meeting with technical account managers and clients, and assisting the other developers on the team with their work. I acquired familiarity with new languages like JAVA, XML and SASS while maintaining proficiency with older JavaScript libraries such as Prototype and jQuery 1.6 (and older), as these were also common place among client sites that had not been updated in years. Expanded knowledge of these languages honed my ability to find and squash the worst of display bugs, especially in IE7.</p>
   <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Built and maintained a Java-based e-commerce platform used by major retailers, such as Dick’s Sporting Goods, Speedo and iRobot, to reach 10s of millions in sales annually</li>
+  <li>Utilized Javascript and the libraries jQuery and Prototype to implement feature functionality on client websites, such as Quick Shop and Product Image Zoom</li>
+  <li>Created patterns using Java templates and SASS to apply cross-client</li>
+  <li>Lead team responsible for dozens of clients' project requests that required under 40 hours of development time</li>
   </ul>
   <p class="job-link"><a href="http://trueaction.com/">http://trueaction.com/</a><br />
   <a href="http://www.ebayenterprise.com/">http://www.ebayenterprise.com/</a></p>
@@ -89,10 +116,10 @@ is intended to be used for a short summary. -->
 
   <p class="job-description">The Brownstein Group is a highly recognized advertising agency in center city Philadelphia with a client list that includes notable businesses like IKEA, Microsoft, Comcast, and Einstein Healthcare Network. While at Brownstein, I created multiple weeks of mobile advertisements using Adobe Flash. These included static animation banners as well as fully interactive experiences. I created multiple micro-sites for clients like IKEA for several of their campaigns, and even created a Facebook page for their brand. These pages ranged in difficulty from single page sites to a fully interactive website that hosted a branded web series. I also coded many email blasts that are sent out for weekly or seasonal sales. While employed at Brownstein, I focused on my work in JavaScript and the extensive jQuery library.</p>
   <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Created multiple weeks of mobile advertisements, static and interactive, for clients like IKEA and Einstein Healthcare using Adobe Flash that were seen by 10s of millions of people</li>
+  <li>Created and maintained multiple micro-sites and Facebook pages for client brands</li>
+  <li>Using HTML and CSS, coded many email campaigns sent to millions of IKEA customers</li>
+  <li>Using jQuery, HTML5, and CSS3, created an interactive magaizine experience for IKEA, which won many ADDY and WEBBY awards</li>
   </ul>
   <p class="job-link"><a href="http://trueaction.com/">http://www.brownsteingroup.com</a><br />
   <a href="http://trueaction.com/">http://m.brownsteingroup.com</a></p>
@@ -102,38 +129,46 @@ is intended to be used for a short summary. -->
 <div class="column w-2-5">
 <div id="honors" class="">
 
-<div class="section-header"><span class="icon"><img src="./images/icons/trophy.svg" /></span><h2>Honors & Awards</h2></div>
+<div class="section-header">
+<h2><span class="icon"><img src="./images/icons/trophy.svg" /></span>Honors & Awards</h2>
+</div>
 
   <ul>
-    <li>IKEA Interactive Seasonal Catalog – WEBBY Award Honoree</li>
-    <li>IKEA Interactive Seasonal Catalog (Consumer - Products), Gold ADDY Award, March 2013</li>
-    <li>IKEA Easy to Assemble Website (Consumer - Outlets), Silver ADDY Award, March </li>2013
-    <li>IKEA New Movers Microsite - Products, Gold ADDY Award, March 2013</li>
+  <li>IKEA Interactive Seasonal Catalog – WEBBY Award Honoree</li>
+  <li>IKEA Interactive Seasonal Catalog (Consumer - Products), Gold ADDY Award, March 2013</li>
+  <li>IKEA Easy to Assemble Website (Consumer - Outlets), Silver ADDY Award, March 2013</li>
+  <li>IKEA New Movers Microsite - Products, Gold ADDY Award, March 2013</li>
   </ul>
 
 </div>
 <div id="education" class="">
 
-<div class="section-header"><span class="icon"><img src="./images/icons/school.svg" /></span><h2>Education</h2></div>
+<div class="section-header">
+<h2><span class="icon"><img src="./images/icons/school.svg" /></span>Education</h2>
+</div>
 
-  <p>Drexel University, Philadelphia, PA<br />
-  Bachelor of Science, 2011<br />
-  Digital Media – Concentration in Web Design</p>
+  <p>
+  <span>Drexel University</span>, Philadelphia, PA<br />
+  <span>Bachelor of Science</span>, 2011<br />
+  <span>Digital Media</span> Web Design
+  </p>
 
 </div>
 <div id="hobbies" class="">
 
-<div class="section-header"><span class="icon"><img src="./images/icons/gamepad-variant.svg" /></span><h2>Hobbies</h2></div>
+<div class="section-header">
+<h2><span class="icon"><img src="./images/icons/gamepad-variant.svg" /></span>Hobbies</h2>
+</div>
 
   <ul>
-    <li>Photography</li>
-    <li>Web Design / Human Computer Interaction</li>
-    <li>Recreational Sports</li>
-    <li>Wing Chun Kung Fu</li>
-    <li>Live Music</li>
-    <li>Smart Home development</li>
+  <li>Photography</li>
+  <li>Web Design / Human Computer Interaction</li>
+  <li>Recreational Sports</li>
+  <li>Wing Chun Kung Fu</li>
+  <li>Live Music</li>
+  <li>Smart Home development</li>
   </ul>
 
-</div>
-</div>
-</div>
+</div><!-- End Hobbies -->
+</div><!-- End Column -->
+</div><!-- End Container -->
