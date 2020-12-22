@@ -91,13 +91,12 @@ a {
 ul {
   margin: 0;
   padding: 0 0 0 25px;
-  list-style: none;
   font-size: 1.1em;
 }
 li {
   padding: 0;
   margin: 0;
-  display: flex;
+  list-style: none;
 }
 /* END Style reset and default styles */
 
@@ -196,10 +195,12 @@ li {
   line-height: 1;
   text-align: justify;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 #header > div.identity > div > h2 {
   width: 100%;
   font-size: 1.3em;
+  white-space: nowrap;
 }
 #header > ul {
   width: 330px;
@@ -212,6 +213,7 @@ li {
 }
 #header > ul > li {
   margin-bottom: 5px;
+  white-space: nowrap;
 }
 #header > ul > li:last-child {
   margin-bottom: 0;
@@ -221,6 +223,7 @@ li {
   display: flex;
   align-items: center;
   color: #011627;
+  text-decoration: none;
 }
 /* END Header Styles */
 
@@ -272,7 +275,6 @@ li {
 #work-experience > ul {
   margin-bottom: 10px;
   padding-left: 50px;
-  list-style-type: disc;
 }
 #work-experience > ul > li {
   margin-bottom: 10px;
@@ -289,7 +291,6 @@ li {
 /* Honors Styles */
 #honors > ul {
   padding-left: 50px;
-  list-style: circle;
 }
 #honors > ul > li {
   margin-bottom: 15px;
@@ -302,16 +303,16 @@ li {
 /* Education Styles */
 #education > p {
   padding-left: 50px;
+  font-weight: 400;
 }
 #education > p > span {
-  padding-left: 50px;
+  font-weight: 700;
 }
 /* END Education Styles */
 
 /* Hobbies Styles */
 #hobbies > ul {
   padding-left: 50px;
-  list-style: circle;
 }
 #hobbies > ul > li {
   margin-bottom: 15px;
@@ -320,6 +321,24 @@ li {
   margin-bottom: 0;
 }
 /* END Hobbies Styles */
+
+/* Custom Bullets */
+#hobbies > ul > li,
+#honors > ul > li,
+#work-experience > ul > li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+#hobbies > ul > li::before,
+#honors > ul > li::before,
+#work-experience > ul > li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #2ec4b6; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 
 /* For PDF */
 @media print {
@@ -338,14 +357,9 @@ li {
     box-shadow: none;
     -webkit-box-shadow: none;
   }
-  /* Make links black in PDF */
-  /* Move this outside the print block to apply this in HTML too */
-  a,
-  a:link,
-  a:visited,
-  a:hover {
-    color: #000000;
-    text-decoration: underline;
+
+  p {
+    font-size: 0.9em;
   }
 
   .w-2-5,
@@ -357,15 +371,31 @@ li {
     display: block;
   }
 
-  .icon {
-    /* background-color: transparent; */
+  .section-header {
+    margin-bottom: 5px;
+  }
+  .section-header > h2 > .icon {
+    width: 40px;
+    height: 40px;
+  }
+  .section-header > h2 > .icon > img {
+    width: 20px;
+    height: 20px;
   }
 
+  #header {
+    margin-bottom: 0;
+  }
   #header > div.identity {
-    width: 380px;
+    width: 400px;
+  }
+  #header > div.identity > div > h1 {
+    font-size: 2.35em;
+  }
+  #header > div.identity > div > h2 {
+    font-size: 1.1em;
   }
   #header > ul {
-    width: 285px;
     height: 110px;
   }
   #header > ul > li {
@@ -375,6 +405,21 @@ li {
 
   #work-experience {
     padding-right: 0;
+  }
+  #work-experience > h3 {
+    font-size: 1.2em;
+  }
+  #work-experience > h3 > span {
+    font-size: 0.6em;
+  }
+  #work-experience > h4 {
+    font-size: 1.4em;
+  }
+  #work-experience > h4 > span {
+    font-size: 0.65em;
+  }
+  #work-experience > ul > li {
+    font-size: 0.9em;
   }
 }
 @page {
