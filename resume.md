@@ -67,13 +67,9 @@ is intended to be used for a short summary. -->
 <h2><span class="icon"><img src="./images/icons/briefcase.svg" /></span>Work Experience</h2>
 </div>
 
-  <!-- You have to wrap the "left" and "right" half of these headings in spans by
-  hand -->
-
+<div class="job-container">
   <h3>Comcast xFi <span>June 2018 to December 2020</span></h3>
-
   <h4>UI Engineer IV <span>Philadelphia, PA</span></h4>
-
   <p class="job-description">As a contracted member of Comcast’s xFi Team, I had the privilege of working on Syndicating one of the flagship Xfinity App offerings. Originally built on the Polymer framework and a Redux architecture, Comcast had around 900 thousand weekly users at the time I started. Using a combination of build processes involving Webpack, gulp, and Node, I helped create an assets library and architecture to support multiple Syndication Partners. Once the assets were prepared, I helped configure our Jenkins pipeline using YAML mortal files to run all our build steps and tests, and then publish to an OpenCloud instance. The build process accepts a variable to designate which assets and themes to use, enabling Comcast’s xFi platform to run in 4 different countries, 4 languages, and 22 million more potential users. After the second official partner launch, the team was reassigned and became the Coverage Team, which oversaw pre-mesh Self-service WiFi and the React Migration. I used Polymer 1, React, Redux, and Webpack to re-architect the xFi project and lay the proper pattern foundations. After the Self WiFi work was completed, I was assigned to the Web Infrastructure team, where I used React, Typescript, Tailwind, and our Webpack config to continue implementing the React migration and architecture-level updates to our Dev Tools. Once Polymer became a fallback framework, we were able to optimize our load bundles and assets. This, along with Tailwind and strict implementation of Typing, reduced load-time from initial request to ready by 10 seconds on our heaviest page. By December 2020, the Xfinity App was used by almost 2.3 million weekly users. Working on this team allowed me to grow my code knowledge, understand the far-reaching implications of project architecture, and take the lead on implementing critical tools needed to develop a modern web application.</p>
   <ul>
   <li>Built and improved React/Redux architecture to replace Polymer, and to efficiently handle growth from 900 thousand to 2.3 million weekly users</li>
@@ -82,11 +78,11 @@ is intended to be used for a short summary. -->
   <li>Responsible for implementing architecture-level tooling and processes, such as Typescript and Tailwind, to increase productivity and reduce defects with data handling</li>
   </ul>
   <p class="job-link"><a href="http://internet.xfinity.com/">http://internet.xfinity.com/</a></p>
+</div>
 
+<div class="job-container">
   <h3>Comcast Business My Account <span>June 2016 to May 2018</span></h3>
-
   <h4>UI Engineer III <span>Philadelphia, PA</span></h4>
-
   <p class="job-description">As a contractor, I joined the Comcast Business team through Comcast’s Front-end Development (FED) department. As a member of FED, I helped to drive innovation and modern standards in User Interface (UI) development on top of the regular project work of the Comcast Business department to which I was assigned. About a year later, the FED department was split up and I assumed a leading role in the Legacy My Account application UI and Site Unification effort. We used a Microsoft stack of .Net / Razor backend, Sitecore content management system (CMS), and a Node.js / Gulp / SASS driven Front End using KnockoutJS for dynamic UI changes and Pattern Lab for templating. After the Site Unification ReArch project, I was assigned to another team to accrue experience using a React / Redux architecture that was going to be the standard for all new projects. Working in a modern and well-structured environment allowed me to learn better JS coding conventions, modular/componentized architecture and pattern development, and debugging methods.</p>
   <ul>
   <li>Worked in a .Net architecture with a Node.js environment to build and maintain a user portal with over 2 million subscribers</li>
@@ -95,11 +91,48 @@ is intended to be used for a short summary. -->
   <li>Helped create initial SDWAN offering from Comcast Business, now known as ActiveCore SDN</li>
   </ul>
   <p class="job-link"><a href="http://business.comcast.com/myaccount/">http://business.comcast.com/myaccount/</a></p>
+  <div class="job-projects">
+  <h4>ActiveCore (formerly SDWAN)</h4>
+  <h5>UI Engineer <span>March 2018 to May 2018</span></h5>
+  <p></p>
+  
+  <h4>Site Unification Navigation ReArch</h4>
+  <h5>UI Engineer <span>February 2018 to March 2018</span></h5>
+  <p></p>
+  
+  <h4>Legacy Onboarding: Online Reschedule / Account Registration</h4>
+  <h5>UI Engineer <span>November 2017 to February 2018</span></h5>
+  <p></p>
+  
+  <h4>Site Unification Navigation</h4>
+  <h5>UI Engineer <span>September 2017 to November 2017</span></h5>
+  <p></p>
 
+  <h4>Legacy My Account – PRI Trunk Services</h4>
+  <h5>UI Engineer <span>August 2017 to September 2017</span></h5>
+  <p></p>
+
+  <h4>Legacy My Account: Business Phone Services</h4>
+  <h5>UI Engineer <span>July 2017 to August 2017</span></h5>
+  <p></p>
+
+  <h4>My Account: Ethernet Threat Management System</h4>
+  <h5>UI Engineer <span>March 2017 to June 2017</span></h5>
+  <p></p>
+
+  <h4>Billing: EcoBill, Autopay, Stored Payment Methods</h4>
+  <h5>UI Engineer <span>January 2017 to March 2017</span></h5>
+  <p></p>
+
+  <h4>My Account: 0-90 Onboarding Experience</h4>
+  <h5>UI Engineer <span>June 2016 to January 2017</span></h5>
+  <p>The first project I was a part of was the 0-90 Onboarding Experience, which is a part of the Legacy BCP My Account application.  Its purpose was to lower call center volume and enhance new customer experience by giving a new Comcast Business customer dashboard access to installation appointment information and rescheduling, management of User Accounts, Bill viewing and payment features, and Account Services information.  This project was my introduction to the Agile workflow.  I was able to grasp the concepts quickly and adjusted to the new pace of work easily.  As part of my responsibilities on the Front-End team, I created and used patterns built in Pattern Lab using Mustache and implemented them in the application using Razor, SASS, jQuery, and KnockoutJS.</p>
+  </div>
+</div>
+
+<div class="job-container">
   <h3>True Action/eBay Enterprise <span>June 2013 to April 2016</span></h3>
-
   <h4>Team Lead, UX Development <span>King of Prussia, PA</span></h4>
-
   <p class="job-description">I started at True Action as a contractor as the company began its reorganization and rebranding effort after being bought by eBay in 2011. I began working on Global Sports Inc’s JAVA based v9/v10 platform where I worked on large brands such as Dick’s Sporting Goods, Speedo, iRobot, and many more. Projects ranged in scope from small content updates to feature additions including product page zooms and Express Shop overlays, and redesigns including everything from page redesigns to whole brand redesigns. Approximately 6 months after my employment as a contractor, I became a full time employee of the company and was promoted to the lead position of my team. Besides development work, my expanded responsibilities included estimating the time and scope of all the projects submitted to my team, coordinating workload bandwidth with project managers, meeting with technical account managers and clients, and assisting the other developers on the team with their work. I acquired familiarity with new languages like JAVA, XML and SASS while maintaining proficiency with older JavaScript libraries such as Prototype and jQuery 1.6 (and older), as these were also common place among client sites that had not been updated in years. Expanded knowledge of these languages honed my ability to find and squash the worst of display bugs, especially in IE7.</p>
   <ul>
   <li>Built and maintained a Java-based e-commerce platform used by major retailers, such as Dick’s Sporting Goods, Speedo and iRobot, to reach 10s of millions in sales annually</li>
@@ -109,11 +142,56 @@ is intended to be used for a short summary. -->
   </ul>
   <p class="job-link"><a href="http://trueaction.com/">http://trueaction.com/</a><br />
   <a href="http://www.ebayenterprise.com/">http://www.ebayenterprise.com/</a></p>
+  <div class="job-projects">
+  <h4>UxD Small Projects Team Lead</h4>
+  <h5>Team Lead Developer <span>January 2015 to April 2016</span></h5>
+  <p>As a Team Lead, I was responsible for overseeing the day-to-day operations of a team of four developers working on multiple Java-based ecommerce platforms.  When a client request was created by our project managers, it was my responsibility to estimate the work required to complete the project and identify any critical changes that would require thorough quality assurance testing.  If a request was unclear, I would arrange meetings with the project team and the client to further discuss the client’s goals.  The request was then assigned to either myself, or to a team member while I provided support and direction should they have any questions.  All told, the Small Projects team was responsible for $XXX thousand dollars of revenue, calculated by the teams’ working hours multiplied by the percentage of billable hours.</p>
+  
+  <h4>UxD Small Projects Development Wiki</h4>
+  <h5>Team Lead/Editor <span>June 2014 to April 2016</span></h5>
+  <p>When I first started at True Action/eBay Enterprise, there was a large pool of developers from whom knowledge of previous project, platform tools, and code in general was easily accessible.  As the company began shifting personnel due to organizational changes, those sources were no longer readily available.  The company recently migrated over to a cloud-based version of Atlassian, so there was finally a place to start storing necessary information for all the projects we took on, agency and ecommerce alike.  For my skunk works project, I started to aggregate all the information a member of my team might need to complete the work assigned to him.  I created whole walk-throughs on how to update our backend systems with content, step-by-step guides on how to move files between each development environment, tables of user login info for each service and tool we use, and contact information for people on other teams we regularly have help us troubleshoot DB or server issues.</p>
+  
+  <h4>Removal of Server-Side Internet Explorer 7 Emulation Mode (multiple stores)</h4>
+  <h5>Web Developer <span>Various 2015-2016</span></h5>
+  <p>When the Java-based v9 Platform was first built in 2006, a feature library was built using the Prototype JavaScript library to add functionalities that were not readily available like many jQuery packages are today.  In 2009 when Internet Explorer updated to version 8, it was discovered that this feature library did not work as expected.  The company’s response at the time was to activate an Internet Explorer 7 Emulation mode for all stores on the v9 Platform.  Prior to 2015, there were some rare occasions where a specific page on one store would require to deactivation of this emulator.  In these cases, I would either use a Meta tag in the header to force the use of the Microsoft Edge rendering engine or a Request Header modification in Java.  Starting in 2015, we began receiving requests from clients for HTML5 elements and features on their store sites, which would require removing this emulator.  Projects of this type usually involved creating a new SVN branch, turning off the emulator in that branch, testing all major pages and fixing any defects that appeared.  Most of the defects found during these projects were HTML syntax and style errors as there had been many hacks made for Internet Explorer, Versions 8 and below.  During these projects I learned how to read and modify Response Headers, the importance of doctypes for style translation, and the Apache code to alter an entire webstore’s Headers.</p>
+  
+  <h4>Mattel Global Header and Footer Redesign</h4>
+  <h5>Web Developer <span>September 2015 to December 2015</span></h5>
+  <p>Mattel was originally looking for some usability updates within their global header, namely changing the prominence of their search bar.  Instead they decided to take the opportunity for a full-site design refresh.  From my perspective, it was a request with a wide enough scope that I would be able to tackle the inefficiencies within the style and JavaScript inclusions, change multiple design cues from images to pure-CSS driven, and add custom fonts to replace the image-driven main navigation.  Another one of the client’s requests was to update the way their sub-navigation layout rendered, which required altering the JSTL used to dynamically build the current navigation.  One of the main challenges of this project was the transition to using a global set of styles to normalize the entire site.  The advantage to using global styles and variables is to reduce the number of unexpected behavioral errors and to reduce the amount of code required for page-specific tasks by grouping together similar rules.  Upon launch, I was given a crash course in Content Caching as our Akamai caching service had not refreshed to the newest version.</p>
+  
+  <h4>Dick’s Sporting Goods Webstore Modernization</h4>
+  <h5>Web Developer <span>August 2015 to December 2015</span></h5>
+  <p>As one of the largest and oldest webstores on eBay Enterprise’s platform, Dick’s had been looking for ways to improve its online performance related to functionality, load times, and sales and analytics.  Years of fragmentation, patch-work coding, and having to design around Internet Explorer 7 Emulation had created many inefficiencies and redundancies in all parts of the View model.  The original scope of the project was to add the newest jQuery library to every page of the site, however this soon expanded to remove a large amount of technical debt by including a global header JSP file and the refactoring of the code transplanted within.  Aside from cleaning up the style and JavaScript includes and working around the use of multiple libraries on a single page, this project gave me the opportunity to learn some nuances of Java, such as the use of request-time variables and variable scoping.  As the header file grew in size and complexity, I started running in to compiler errors for pages that were exceeding 64kb in size.  I then learned the importance of when to use an Include Directive versus an Include Action.  This project was not only a great experience for learning the Java programming language, but it also provided a lesson about the importance of templating.</p>
+  
+  <h4>Maurices Global Header Redesign</h4>
+  <h5>Web Developer <span>April 2015 to August 2015</span></h5>
+  <p>Maurices was interested in cleaning up its global header and in increasing the flexibility they had in the control of their global top navigation.  All clients use our proprietary Remote Tools CMS to load their taxonomy using Parent to Children relationship.  After instructing the client on the proper setup of their products and categories, I used the JSTL library and Webstore API calls to pull all the relevant information from our system and write dynamic HTML to form their main navigation.  This was the first time I was able to use JSTL exclusively for the creation of the HTML structure.  One exception, due to limitations in the age of the platform, was string comparisons.  In the case that I needed to check the title of a category, I had to convert variables from JSTL to JSP and back.  During this project, I was able to learn about page context variables and how to traverse Java objects, their siblings, and their children, and then use their properties to create style properties.</p>
+  
+  <h4>Aéropostale Global Header Redesign</h4>
+  <h5>Web Developer <span>May 2015 to August 2015</span></h5>
+  <p>Similar to Maurices request, Aéropostale also needed an update to its header’s style and navigation.  Aéro had conducted a usability study and concluded that many of the functions of the header were being underutilized or outright ignored.  As a result, Aéro’s plan involved updating their main navigation taxonomy to further control their sub-navigation layout and access to their two sub-brands.  I came in to the project after a front-end architect began implementing a Node.js and Grunt task automation, and completed the implementation and conversion of CSS in to LESS.  While the update to the main navigation used the same skills described in the Maurices Header Redesign, the main challenge in this project was the learning curve with the combination of Node, Grunt, and LESS functionality.  With the use of these new tools, we were able to modernize and properly organize the client’s style rules by global layout and page-specific cases.</p>
+  
+  <h4>Levi’s Express Shop Implementation</h4>
+  <h5>Web Developer <span>November 2014 to February 2015</span></h5>
+  <p>Levi’s wanted to implement a “quickview” Express Shop experience on their Search Results and Category pages to boost the speed and frequency of product sale goals.  One can see this type of feature prevalent on a multitude of ecommerce websites around the Internet.  One thing that made this project a little tougher than normal was that the client had set up their products in our CMS in a way unique from our other clients, which made simply updating product info for each color require a page refresh.  To avoid this, I used a JSON call to pull in the product info for all the SKUs related to the garment, and could alter the product information on the fly using the stored data.  The rest of the information had to be pulled from the CMS via JAVA API calls.  This project exposed me to the integral parts of the product sales flow of an e-commerce website and the strategies used to make conversions as quick and easy as possible.</p>
+  
+  <h4>iRobot Branding Redesign</h4>
+  <h5>Web Developer <span>August 2014 to October 2014</span></h5>
+  <p>iRobot was in the middle of an entire brand redesign and needed us to update their store page header and footer to fall in line with the changes on their corporate sites.  During implementation, many glaring defects arose as a result of using an industry standard CSS reset as well as updating some of the old code and libraries to meet modern standards; this ultimately led to a site-wide cleanup effort.  The unique aspect of this client’s site was that their entire header and footer navigation was generated by an XML file output by their in-house CMS.  To pull in the navigation, we used XPath to parse the XML, then arrayed it in each container I created in HTML.  Once the main navigation and footer were completed, I went through the rest of the site and removed erroneous code and fixed templates.  Significant effort was also put into readying the site for the removal of their IE7 emulator.</p>
+  
+  <h4>GNC Gobal Header Redesign</h4>
+  <h5>Web Developer <span>May 2014 to September 2014</span></h5>
+  <p>GNC was beginning a full site redesign, but wanted to change their header on the old site while the designs were being finalized.  This update included a refresh of the header tag’s code as well as a display header update.  As with the other refresh projects, I took the opportunity to update the code to meet modern standards, organized CSS and JS groupings to minimize file locks, and created image sprites to minimize HTTP requests.  The header also required a navigation update with the client requesting a brand new drop down menu.  This was a little different from a normal implementation because the client used a unique navigation profile, including filters, to populate their menu.  They also requested a unique style to be included in each dropdown depending on how many filters were applied.  This could have been done per category, but with JavaScript, I was able to create a fully dynamic system that allowed the client to change their menu at will without any further work.  After the project was done, the client was ecstatic to report a full 4 second average decrease in page load times.  This project also helped the client disable IE7 emulation mode on their server, which created many more opportunities for their design teams moving forward.</p>
+  
+  <h4>Speedo USA Branding Redesign</h4>
+  <h5>Web Developer <span>September 2013 to January 2014</span></h5>
+  <p>Speedo USA wanted to update their site away from the “so 2000s” look of drop shadows and gradients, and replace it with a clean, more minimalist design that focused on letting the content tell the story.  The project entailed completely redoing the site’s global header, reorganizing product pages, and updating the cart and checkout process.  While completing the style and content updates, I took the opportunity to update old code to meet modern standards, reorganized the CSS groupings to make the minification process easier and to avoid file locks, and grouped all stylistic images in to sprites, all done to make future development easier.  This was the first major site redesign I was given based on JSP templates.</p>
+  </div>
+</div>
 
+<div class="job-container">
   <h3>The Brownstein Group <span>July 2011 to May 2013</span></h3>
-
   <h4>Web Developer <span>Philadelphia, PA</span></h4>
-
   <p class="job-description">The Brownstein Group is a highly recognized advertising agency in center city Philadelphia with a client list that includes notable businesses like IKEA, Microsoft, Comcast, and Einstein Healthcare Network. While at Brownstein, I created multiple weeks of mobile advertisements using Adobe Flash. These included static animation banners as well as fully interactive experiences. I created multiple micro-sites for clients like IKEA for several of their campaigns, and even created a Facebook page for their brand. These pages ranged in difficulty from single page sites to a fully interactive website that hosted a branded web series. I also coded many email blasts that are sent out for weekly or seasonal sales. While employed at Brownstein, I focused on my work in JavaScript and the extensive jQuery library.</p>
   <ul>
   <li>Created multiple weeks of mobile advertisements, static and interactive, for clients like IKEA and Einstein Healthcare using Adobe Flash that were seen by 10s of millions of people</li>
@@ -123,9 +201,60 @@ is intended to be used for a short summary. -->
   </ul>
   <p class="job-link"><a href="http://trueaction.com/">http://www.brownsteingroup.com</a><br />
   <a href="http://trueaction.com/">http://m.brownsteingroup.com</a></p>
+  <div class="job-projects">
+  <h4>IKEA Interactive Seasonal Catalog</h4>
+  <h5>Web Developer <span>May 2012 to May 2013</span></h5>
+  <p>IKEA's online catalog used to be strictly an online version of their print catalog. Now it is an interactive experience with rich content ranging in medium, from sliding content to animated objects and video. Its integration with social media, especially Pintrest, makes creating and organizing your ideal room that much easier. The project is on-going as new issues will be released quarterly. My role in the project was to create the front end engine that would handle all the data input by the back end as well as fire animation events on each page load. I created a framework that can be navigated via keyboard and on-screen cues that allows dynamic HTML and SQL data to be loaded on the fly. After that, I helped the team create templates for each page type and applied that shared styles across the site.</p>
+  
+  <h4>IKEA New Movers</h4>
+  <h5>Web Developer <span>March 2012</span></h5>
+  <p>IKEA ran a campaign in which they wanted to help people move into their new home as painlessly as possible. The goal of this site was to show off IKEA's new lines of home goods and to provide a list of tips and tricks for packing up the old stuff and organizing the new. My role in the project included creating page templates for the main pages and filling in content for each. After the pages were created, I added small animations and simple gallery plugins to each page to give them a richer, more enticing appearance.</p>
+  
+  <h4>IKEA Easy to Assemble</h4>
+  <h5>Web Developer <span>January 2012</span></h5>
+  <p>IKEA runs a special web comedy series in which actress Illeana Douglas tries to escape Hollywood by becoming an employee at IKEA Burbank. This was the first dynamic website I worked on. I created the framework which builds the pages on the fly using JavaScript and query strings to call upon a JSON object which returns the correct content to display. The slideshow on the homepage is a custom gallery which uses the JQuery animate function, along with z-index and rotate, to create the card "shuffling" effect with the hands and promo banners.</p>
+  </div>
+</div>
+
+<div class="job-container print-hidden resume-hidden">
+  <h3>Anatomi Designs <span>February 2011 to Feb 2017</span></h3>
+  <h4>Co-Owner, Developer <span>Philadelphia, PA</span></h4>
+  <p class="job-description">In February of 2011, one of my long-time friends who is a graphic designer with a background in advertising and I formed Anatomi Design, a freelance web design company.  We design and build websites for a variety of businesses and individuals in the Philadelphia region.  This was a unique opportunity for me as I not only had to co-create the product, but also had the responsibility of finding and persuading prospective clients to use our services.  Technologies that are used in each site range from plain HTML/CSS to more complex combinations involving PHP, JavaScript, Flash, and AJAX.</p>
+  <ul>
+  <li>Created multiple weeks of mobile advertisements, static and interactive, for clients like IKEA and Einstein Healthcare using Adobe Flash that were seen by 10s of millions of people</li>
+  <li>Created and maintained multiple micro-sites and Facebook pages for client brands</li>
+  <li>Using HTML and CSS, coded many email campaigns sent to millions of IKEA customers</li>
+  <li>Using jQuery, HTML5, and CSS3, created an interactive magaizine experience for IKEA, which won many ADDY and WEBBY awards</li>
+  </ul>
+  <div class="job-projects">
+  <h4>Joanne Balaban Designs</h4>
+  <h5>Web Developer <span>September 2014 to January 2015</span></h5>
+  <p>Joanne Balaban is an interior decorator in and around the Philadelphia area who was looking for a fresh presence on the Internet.  Our creation is a fully responsive site with a unique layout and control scheme.  Each “slide” is the full width and height of the screen, with the content arrangement dependent on the screen size and orientation.  To move around the site, a user can click on any of the links on the page, or use the mobile-style menu.  All animations were done with the use of jQuery and CSS3 Transitions.  The most significant part of the site is the portfolio.  This responsive carousel was created dynamically via an AJAX call that returns a JSON object which contains all the project information by project name.  The carousel can be swiped, dragged, or navigated by the arrows on either side.  Each one has an expand button which loads an inline modal box with dynamically generated content also from the JSON data.</p>
+  
+  <h4>Stuart Leon Bicycle Crash Law</h4>
+  <h5>Web Developer <span>October 2013 to June 2014</span></h5>
+  <p>Stuart Leon is a lawyer in Philadelphia who has a long-standing passion for protecting bicyclists from automobile drivers.  His website needed an update and a style that fit his unique mix of casual and professional persona.  We created a simple, informative, fully responsive single page scroller website.  As the primary purpose of the site is to inform Stuart’s clients about basic rider and traffic laws and about the procedures and recourse when involved in an accident, we made access to all of this information as easy as possible.  The page can be navigated using the scroll bar or the fixed navigation at the top which will animate a smooth scroll.  The functionality of the site is straight forward, but the backend is complex.  This page is driven by a Wordpress CMS.  Each section is a different page.  Each entry within that page is a different section or block of text.  The backgrounds are controlled via spotlight images as is the logo at the top.  The client can change any of this content at will, without needing to contact us.</p>
+  
+  <h4>UGotMunchies</h4>
+  <h5>Web Developer <span>July 2012 to August 2012</span></h5>
+  <p>A start up food truck-turned-restaurant on Temple University’s campus, U Got Munchies was in desperate need of an updated website which matched their new brick and mortar location and overall brand.  As one of the main sources of sales, online ordering was a priority and needed to be more accessible and prominent.  The new site is a single page scroller which utilizes JQuery to power animated scrolling, slideshows, forms, a lightbox for online orders, and lazyload to quicken load times due to large images throughout the site.  In addition to the new desktop site, a new mobile site was launched to accommodate the growing mobile audience, especially pertaining to college aged individuals.  Since the launch of the new site, the restaurant has seen a boost in business online as well as at the physical location with an average of 150 views a day.</p>
+  </div>
+</div>
+
+<div class="job-container print-hidden resume-hidden">
+  <h3>Senior Project <span>January 2011 to June 2011</span></h3>
+  <h4>Web Developer <span>Drexel University</span></h4>
+  <p class="job-description">H5inWonderland is an online experience that combines the use of all three Digital Media concentrations, web design, animation, and game development, using brand new web technologies such as HTML5.  The project is playable on Webkit browsers as well as on mobile devices such as the iPad.  Through the use of a third party program called SiteClone, H5inWonderland also became a pseudo-app for the iPad during offline activity.  My responsibilities for the project included helping to design the website to host the content, stylizing the site as well as some of the games, and programming two of the five games (Singing Gardens and the Enchanted Forrest).  To make each game work, a combination of JavaScript and the canvas tag were used to create the gaming environment.  JQuery was used to add basic transitions and to add and remove elements from pages.  Due to the hardware limitations of the iPad, only a light version of the project is available as some of the games are too graphic heavy for the JavaScript engine to run smoothly.</p>
+  <ul>
+  <li>Created multiple weeks of mobile advertisements, static and interactive, for clients like IKEA and Einstein Healthcare using Adobe Flash that were seen by 10s of millions of people</li>
+  <li>Created and maintained multiple micro-sites and Facebook pages for client brands</li>
+  <li>Using HTML and CSS, coded many email campaigns sent to millions of IKEA customers</li>
+  <li>Using jQuery, HTML5, and CSS3, created an interactive magaizine experience for IKEA, which won many ADDY and WEBBY awards</li>
+  </ul>
+</div>
 
 </div>
-</div>
+</div><!-- END Column -->
 <div class="column w-2-5">
 <div id="honors" class="">
 

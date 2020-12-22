@@ -62,7 +62,8 @@ body * {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 0;
   padding: 0;
   font-family: "Open Sans Condensed", sans-serif;
@@ -78,6 +79,9 @@ h3 {
 }
 h4 {
   font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
 }
 p {
   margin: 0;
@@ -101,6 +105,12 @@ li {
 /* END Style reset and default styles */
 
 /* General Styles */
+.hidden {
+  display: none;
+}
+#resume .resume-hidden {
+  display: none;
+}
 .w-3-5 {
   width: 60%;
 }
@@ -240,50 +250,79 @@ li {
 #work-experience {
   padding-right: 15px;
 }
-#work-experience > h3 {
+div.job-container > h3 {
+  margin: 0 0 5px 50px;
   font-size: 1.5em;
   font-weight: 300;
-  margin: 0 0 5px 50px;
 }
-#work-experience > h3 > span {
+div.job-container > h3 > span {
   padding-left: 5px;
+  color: #2ec4b6;
   font-size: 0.6em;
   font-weight: 700;
-  color: #2ec4b6;
 }
-#work-experience > h4 {
+div.job-container > h4 {
+  margin: 0 0 10px 50px;
   font-size: 1.7em;
   font-weight: 300;
-  margin: 0 0 10px 50px;
 }
-#work-experience > h4 > span {
+div.job-container > h4 > span {
   padding-left: 5px;
+  color: #2ec4b6;
   font-size: 0.65em;
   font-weight: 700;
-  color: #2ec4b6;
 }
-#work-experience > p {
+div.job-container > p {
   margin-left: 50px;
   line-height: 1.3;
 }
-#work-experience > p.job-description {
+div.job-container > p.job-description {
   margin-bottom: 10px;
 }
-#work-experience > p.job-link {
-  margin-bottom: 25px;
+div.job-container > p.job-link {
+  margin-bottom: 10px;
 }
-#work-experience > ul {
+div.job-container > ul {
   margin-bottom: 10px;
   padding-left: 50px;
 }
-#work-experience > ul > li {
+div.job-container > ul > li {
   margin-bottom: 10px;
 }
+div.job-container > div.job-projects {
+  margin-bottom: 10px;
+}
+div.job-container > div.job-projects > h4 {
+  margin: 0 0 5px 75px;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+div.job-container > div.job-projects > h4 > span {
+  font-size: 0.65em;
+  font-weight: 700;
+}
+div.job-container > div.job-projects > h5 {
+  margin: 0 0 5px 75px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+div.job-container > div.job-projects > h5 > span {
+  color: #2ec4b6;
+  font-size: 0.6em;
+  font-weight: 700;
+}
+div.job-container > div.job-projects > p {
+  margin: 0 0 15px 75px;
+  margin-bottom: 15px;
+}
 
-#curriculum-vitae #work-experience > ul {
+#curriculum-vitae div.job-container > ul {
   display: none;
 }
-#resume #work-experience > p.job-description {
+#resume div.job-container > p.job-description {
+  display: none;
+}
+#resume div.job-container > div.job-projects {
   display: none;
 }
 /* END Work Experience Styles */
@@ -302,7 +341,7 @@ li {
 
 /* Education Styles */
 #education > p {
-  padding-left: 50px;
+  padding-left: 55px;
   font-weight: 400;
 }
 #education > p > span {
@@ -325,19 +364,24 @@ li {
 /* Custom Bullets */
 #hobbies > ul > li,
 #honors > ul > li,
-#work-experience > ul > li {
+div.job-container > ul > li {
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
+}
+div.job-container > div.job-projects > h4::before {
+  margin-left: 15px;
 }
 #hobbies > ul > li::before,
 #honors > ul > li::before,
-#work-experience > ul > li::before {
+div.job-container > ul > li::before,
+div.job-container > div.job-projects > h4::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #2ec4b6; /* Change the color */
+  font-size: 0.85em;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  width: 0.85em; /* Also needed for space (tweak if needed) */
+  margin-left: -0.85em; /* Also needed for space (tweak if needed) */
 }
 
 /* For PDF */
@@ -362,6 +406,9 @@ li {
     font-size: 0.9em;
   }
 
+  .print-hidden {
+    display: none;
+  }
   .w-2-5,
   .w-3-5 {
     width: 100%;
@@ -406,20 +453,28 @@ li {
   #work-experience {
     padding-right: 0;
   }
-  #work-experience > h3 {
+  div.job-container > h3 {
     font-size: 1.2em;
   }
-  #work-experience > h3 > span {
+  div.job-container > h3 > span {
     font-size: 0.6em;
   }
-  #work-experience > h4 {
+  div.job-container > h4 {
     font-size: 1.4em;
   }
-  #work-experience > h4 > span {
+  div.job-container > h4 > span {
     font-size: 0.65em;
   }
-  #work-experience > ul > li {
+  div.job-container > ul > li {
     font-size: 0.9em;
+  }
+
+  #hobbies > ul > li::before,
+  #honors > ul > li::before,
+  div.job-container > ul > li::before,
+  div.job-container > div.job-projects > h4::before {
+    width: 1.2em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.2em; /* Also needed for space (tweak if needed) */
   }
 }
 @page {
