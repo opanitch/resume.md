@@ -6,8 +6,6 @@
 
   <div>
   <h1>Oren Panitch</h1>
-
-  <h2>UX Developer & IoT Hobbiest</h2>
   </div>
   </div>
 
@@ -39,12 +37,6 @@
     <span>in/opanitch</span>
     </a>
     </li>
-    <li>
-    <a href="https://www.google.com/maps/place/Philadelphia,+PA/@40.0024137,-75.2581124,11z">
-    <span class="icon"><img src="./images/icons/map-marker.svg" alt="location" /></span>
-    <span>Philadelphia, PA</span>
-    </a>
-    </li>
   </ul>
 
 </div>
@@ -73,9 +65,9 @@ is intended to be used for a short summary. -->
   <p class="job-description">As a contracted member of Comcast’s xFi Team, I had the privilege of working on Syndicating one of the flagship Xfinity App offerings. Originally built on the Polymer framework and a Redux architecture, Comcast had around 900 thousand weekly users at the time I started. Using a combination of build processes involving Webpack, gulp, and Node, I helped create an assets library and architecture to support multiple Syndication Partners. Once the assets were prepared, I helped configure our Jenkins pipeline using YAML mortal files to run all our build steps and tests, and then publish to an OpenCloud instance. The build process accepts a variable to designate which assets and themes to use, enabling Comcast’s xFi platform to run in 4 different countries, 4 languages, and 22 million more potential users. After the second official partner launch, the team was reassigned and became the Coverage Team, which oversaw pre-mesh Self-service WiFi and the React Migration. I used Polymer 1, React, Redux, and Webpack to re-architect the xFi project and lay the proper pattern foundations. After the Self WiFi work was completed, I was assigned to the Web Infrastructure team, where I used React, Typescript, Tailwind, and our Webpack config to continue implementing the React migration and architecture-level updates to our Dev Tools. Once Polymer became a fallback framework, we were able to optimize our load bundles and assets. This, along with Tailwind and strict implementation of Typing, reduced load-time from initial request to ready by 10 seconds on our heaviest page. By December 2020, the Xfinity App was used by almost 2.3 million weekly users. Working on this team allowed me to grow my code knowledge, understand the far-reaching implications of project architecture, and take the lead on implementing critical tools needed to develop a modern web application.</p>
   <ul>
   <li>Built and improved React/Redux architecture to replace Polymer, and to efficiently handle growth from 900 thousand to 2.3 million weekly users</li>
-  <li>Developed and integrated an assets pipeline and architecture using Webpack and Gulp to syndicate the app platform for multiple partners, including 4 countries and 4 languages</li>
-  <li>Through refactoring and React Migration, improved performance significantly, saving as much as 10 seconds from Page Ready performance timings</li>
-  <li>Responsible for implementing architecture-level tooling and processes, such as Typescript and Tailwind, to increase productivity and reduce defects with data handling</li>
+  <li>Developed and integrated an assets pipeline and architecture using Webpack and Gulp to syndicate the app platform for multiple partners, including 4 countries, 4 languages, and 22 million potential users</li>
+  <li>Aided in refactoring and React Migration, saving 11 seconds from Page Ready performance timings, improving performance by 70%</li>
+  <li>Created and implemented architecture-level Dev Tooling along with new standard operating processes via Typescript and Tailwind. These efforts increased productivity and reduced defects with data handling saving the team over 40 hours per month in development time</li>
   </ul>
   <p class="job-link"><a href="http://internet.xfinity.com/">http://internet.xfinity.com/</a></p>
 </div>
