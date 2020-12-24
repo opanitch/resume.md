@@ -35,7 +35,7 @@
 body {
   margin: 40px 0;
   padding: 0;
-  color: #011627;
+  color: #212121;
   background-color: #eeeeee;
   font-size: 16px;
   font-family: "Abel", sans-serif;
@@ -90,11 +90,11 @@ p {
 a {
   display: inline;
   text-decoration: none;
-  color: #e71d36;
+  color: #ff5722;
 }
 ul {
   margin: 0;
-  padding: 0 0 0 25px;
+  padding: 0;
   font-size: 1.1em;
 }
 li {
@@ -133,7 +133,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #2ec4b6;
+  background-color: #2196f3;
   border-radius: 40px;
 }
 .icon > img {
@@ -144,6 +144,9 @@ li {
   display: inline-block;
 }
 
+.section-container {
+  margin-top: 20px;
+}
 .section-header {
   margin-bottom: 10px;
 }
@@ -165,9 +168,6 @@ li {
   display: flex;
   flex-direction: row;
 }
-.column > div {
-  margin-bottom: 20px;
-}
 
 #curriculum-vitae .container {
   display: inline;
@@ -176,7 +176,6 @@ li {
 
 /* Header Styles */
 #header {
-  margin-bottom: 20px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -188,9 +187,9 @@ li {
   align-items: center;
 }
 #header > div.identity > img {
-  width: 100px;
+  width: 125px;
   margin-right: 10px;
-  display: inline-block;
+  display: block;
 }
 #header > div.identity > div {
   display: flex;
@@ -199,7 +198,6 @@ li {
 }
 #header > div.identity > div > h1 {
   width: 100%;
-  color: #ff9f1c;
   font-size: 3em;
   font-weight: 300;
   line-height: 1;
@@ -207,39 +205,32 @@ li {
   text-transform: uppercase;
   white-space: nowrap;
 }
-#header > div.identity > div > h2 {
-  width: 100%;
-  font-size: 1.3em;
-  white-space: nowrap;
-}
 #header > ul {
-  width: 330px;
-  height: 105px;
-  margin-top: 5px;
+  width: 315px;
+  height: 70px;
   padding-left: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 #header > ul > li {
-  margin-bottom: 5px;
   white-space: nowrap;
 }
-#header > ul > li:last-child {
-  margin-bottom: 0;
+#header > ul > li:nth-child(even) {
+  margin-top: 10px;
 }
 #header > ul > li > a {
   width: 100%;
   display: flex;
   align-items: center;
-  color: #011627;
+  color: #212121;
   text-decoration: none;
 }
 /* END Header Styles */
 
 /* Intro Styles */
 #intro {
-  margin-bottom: 20px;
+  margin-top: 15px;
 }
 #intro p + p {
   margin-top: 0.5em;
@@ -247,50 +238,52 @@ li {
 /* END Intro Styles */
 
 /* Work Experience Styles */
-#work-experience {
-  padding-right: 15px;
+div.job-container {
+  margin-left: 55px;
 }
-div.job-container > h3 {
-  margin: 0 0 5px 50px;
+div.job-container + div.job-container {
+  margin-top: 15px;
+}
+div.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+div.job-header > h3 {
   font-size: 1.5em;
   font-weight: 300;
 }
-div.job-container > h3 > span {
-  padding-left: 5px;
-  color: #2ec4b6;
-  font-size: 0.6em;
+div.job-header > h3 > span {
+  color: #1976d2;
+  font-size: 0.8em;
+}
+div.job-header > h4 {
+  color: #757575;
+  font-size: 0.8em;
   font-weight: 700;
 }
-div.job-container > h4 {
-  margin: 0 0 10px 50px;
-  font-size: 1.7em;
-  font-weight: 300;
-}
-div.job-container > h4 > span {
+div.job-header > h4 > span {
   padding-left: 5px;
-  color: #2ec4b6;
-  font-size: 0.65em;
-  font-weight: 700;
+  font-size: 1.1em;
 }
 div.job-container > p {
-  margin-left: 50px;
   line-height: 1.3;
 }
 div.job-container > p.job-description {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 div.job-container > p.job-link {
-  margin-bottom: 10px;
+  margin-top: 5px;
 }
 div.job-container > ul {
-  margin-bottom: 10px;
-  padding-left: 50px;
+  margin-top: 10px;
 }
-div.job-container > ul > li {
-  margin-bottom: 10px;
+div.job-container > ul > li + li {
+  margin-top: 5px;
 }
+/* CV Projects */
 div.job-container > div.job-projects {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 div.job-container > div.job-projects > h4 {
   margin: 0 0 5px 75px;
@@ -315,6 +308,7 @@ div.job-container > div.job-projects > p {
   margin: 0 0 15px 75px;
   margin-bottom: 15px;
 }
+/* END CV Projects */
 
 #curriculum-vitae div.job-container > ul {
   display: none;
@@ -329,13 +323,10 @@ div.job-container > div.job-projects > p {
 
 /* Honors Styles */
 #honors > ul {
-  padding-left: 50px;
+  padding-left: 55px;
 }
-#honors > ul > li {
-  margin-bottom: 15px;
-}
-#honors > ul > li:last-child {
-  margin-bottom: 0;
+#honors > ul > li + li {
+  margin-top: 10px;
 }
 /* END Honors Styles */
 
@@ -343,6 +334,7 @@ div.job-container > div.job-projects > p {
 #education > p {
   padding-left: 55px;
   font-weight: 400;
+  line-height: 1.3;
 }
 #education > p > span {
   font-weight: 700;
@@ -351,13 +343,10 @@ div.job-container > div.job-projects > p {
 
 /* Hobbies Styles */
 #hobbies > ul {
-  padding-left: 50px;
+  padding-left: 55px;
 }
-#hobbies > ul > li {
-  margin-bottom: 15px;
-}
-#hobbies > ul > li:last-child {
-  margin-bottom: 0;
+#hobbies > ul > li + li {
+  margin-top: 10px;
 }
 /* END Hobbies Styles */
 
@@ -365,18 +354,17 @@ div.job-container > div.job-projects > p {
 #hobbies > ul > li,
 #honors > ul > li,
 div.job-container > ul > li {
-  margin-bottom: 10px;
   margin-left: 15px;
 }
-div.job-container > div.job-projects > h4::before {
+/* div.job-container > div.job-projects > h4::before {
   margin-left: 15px;
-}
+} */
 #hobbies > ul > li::before,
 #honors > ul > li::before,
 div.job-container > ul > li::before,
 div.job-container > div.job-projects > h4::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #2ec4b6; /* Change the color */
+  color: #2196f3; /* Change the color */
   font-size: 0.85em;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -405,6 +393,9 @@ div.job-container > div.job-projects > h4::before {
   p {
     font-size: 0.9em;
   }
+  ul {
+    font-size: 1em;
+  }
 
   .print-hidden {
     display: none;
@@ -419,7 +410,7 @@ div.job-container > div.job-projects > h4::before {
   }
 
   .section-header {
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   }
   .section-header > h2 > .icon {
     width: 40px;
@@ -430,43 +421,30 @@ div.job-container > div.job-projects > h4::before {
     height: 20px;
   }
 
-  #header {
-    margin-bottom: 0;
-  }
   #header > div.identity {
     width: 400px;
   }
-  #header > div.identity > div > h1 {
-    font-size: 2.35em;
+  #header > div.identity > img {
+    width: 100px;
   }
-  #header > div.identity > div > h2 {
-    font-size: 1.1em;
+  #header > div.identity > div > h1 {
+    font-size: 2.2em;
   }
   #header > ul {
-    height: 110px;
-  }
-  #header > ul > li {
-    margin-bottom: 1px;
     font-size: 0.85em;
   }
 
-  #work-experience {
-    padding-right: 0;
-  }
-  div.job-container > h3 {
+  div.job-header > h3 {
     font-size: 1.2em;
   }
-  div.job-container > h3 > span {
-    font-size: 0.6em;
+  div.job-header > h3 > span {
+    font-size: 0.7em;
   }
-  div.job-container > h4 {
-    font-size: 1.4em;
+  div.job-header > h4 {
+    font-size: 0.7em;
   }
-  div.job-container > h4 > span {
-    font-size: 0.65em;
-  }
-  div.job-container > ul > li {
-    font-size: 0.9em;
+  div.job-header > h4 > span {
+    font-size: 1em;
   }
 
   #hobbies > ul > li::before,
