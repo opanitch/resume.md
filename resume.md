@@ -45,8 +45,7 @@
   <p>Other relevant code experience includes HTML5, CSS3 / LESS / SASS, Javascript ECMA6, jQuery, PHP, JAVA (JSP / JSTL), Lovelace, YAML, JSON, Git, Bash, Gulp, and WordPress</p>
 
 </div>
-<!-- <div class="container">
-<div class="column w-3-5"> -->
+
 <div id="work-experience" class="section-container">
 
 <div class="section-header">
@@ -254,8 +253,7 @@
 </div>
 
 </div>
-<!-- </div>END Column -->
-<!-- <div class="column w-2-5"> -->
+
 <div id="honors" class="section-container">
 
 <div class="section-header">
@@ -305,5 +303,3 @@
   </ul>
 
 </div><!-- End Hobbies -->
-<!-- </div>End Column -->
-<!-- </div>End Container -->
