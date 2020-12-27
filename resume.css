@@ -111,11 +111,14 @@ li {
 #resume .resume-hidden {
   display: none;
 }
+.w-2-5 {
+  width: 40%;
+}
 .w-3-5 {
   width: 60%;
 }
-.w-2-5 {
-  width: 40%;
+.w-50 {
+  width: 50%;
 }
 
 #curriculum-vitae .w-3-5 {
@@ -165,6 +168,7 @@ li {
 }
 
 .container {
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -250,12 +254,12 @@ div.job-header {
   align-items: baseline;
 }
 div.job-header > h3 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 300;
 }
 div.job-header > h3 > span {
   color: #1976d2;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 div.job-header > h4 {
   color: #757575;
@@ -356,9 +360,6 @@ div.job-container > div.job-projects > p {
 div.job-container > ul > li {
   margin-left: 15px;
 }
-/* div.job-container > div.job-projects > h4::before {
-  margin-left: 15px;
-} */
 #hobbies > ul > li::before,
 #honors > ul > li::before,
 div.job-container > ul > li::before,
@@ -405,13 +406,6 @@ div.job-container > div.job-projects > h4::before {
     width: 100%;
   }
 
-  .container {
-    display: block;
-  }
-
-  .section-header {
-    /* margin-bottom: 5px; */
-  }
   .section-header > h2 > .icon {
     width: 40px;
     height: 40px;
@@ -437,14 +431,11 @@ div.job-container > div.job-projects > h4::before {
   div.job-header > h3 {
     font-size: 1.2em;
   }
-  div.job-header > h3 > span {
-    font-size: 0.7em;
-  }
   div.job-header > h4 {
     font-size: 0.7em;
   }
   div.job-header > h4 > span {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   #hobbies > ul > li::before,

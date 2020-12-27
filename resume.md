@@ -40,7 +40,7 @@
 
 <div id="intro" class="section-container">
 
-  <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building & debugging to managing teams of 5 developers, my talents range from building process workflows that decrease development time and costs, conceptualizing c-level designs into live products, and architecting modular development suites for improved application performance. My recent experience involves React / Redux, Typescript, and Tailwind, using an Enzyme / Jest testing suite, running in a Node.js / npm environment.</p>
+  <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building & debugging to managing teams of up to 5 developers, my talents range from building process workflows that decrease development time and costs, conceptualizing c-level designs into live products, and architecting modular development suites for improved application performance. My recent experience involves React / Redux, Typescript, and Tailwind, using an Enzyme / Jest testing suite, running in a Node.js / npm environment.</p>
 
   <p>Other relevant code experience includes HTML5, CSS3 / LESS / SASS, Javascript ECMA6, jQuery, PHP, JAVA (JSP / JSTL), Lovelace, YAML, JSON, Git, Bash, Gulp, and WordPress</p>
 
@@ -64,7 +64,7 @@
   <li>Lead team through refactoring and React migration efforts that saved 11 seconds from Page Ready load timings, improving performance by 70%.</li>
   <li>Created and implemented architecture-level Dev Tooling along with new standard operating processes via Typescript and Tailwind. These efforts increased productivity and reduced defects with data handling saving the team over 40 hours per month in development time.</li>
   </ul>
-  <p class="job-link"><a href="http://internet.xfinity.com/">http://internet.xfinity.com/</a></p>
+  <p class="job-link"><a href="https://internet.xfinity.com/">https://internet.xfinity.com/</a></p>
 </div>
 
 <div class="job-container">
@@ -79,7 +79,7 @@
   <li>Lead effort to update the styles of My Account UI with Comcast-wide theme</li>
   <li>Helped create initial SDWAN offering from Comcast Business, now known as ActiveCore SDN</li>
   </ul>
-  <p class="job-link"><a href="http://business.comcast.com/myaccount/">http://business.comcast.com/myaccount/</a></p>
+  <p class="job-link"><a href="https://business.comcast.com/myaccount/">https://business.comcast.com/myaccount/</a></p>
   <div class="job-projects">
   <h4>ActiveCore (formerly SDWAN)</h4>
   <h5>UI Engineer <span>March 2018 to May 2018</span></h5>
@@ -121,7 +121,7 @@
 
 <div class="job-container">
   <div class="job-header">
-  <h3>Team Lead, UX Development, <span>True Action/eBay Enterprise</span></h3>
+  <h3>Team Lead, UX Development, <span>eBay Enterprise</span></h3>
   <h4>June 2013 to April 2016, <span>King of Prussia, PA</span></h4>
   </div>
   <p class="job-description">I started at True Action as a contractor as the company began its reorganization and rebranding effort after being bought by eBay in 2011. I began working on Global Sports Inc’s JAVA based v9/v10 platform where I worked on large brands such as Dick’s Sporting Goods, Speedo, iRobot, and many more. Projects ranged in scope from small content updates to feature additions including product page zooms and Express Shop overlays, and redesigns including everything from page redesigns to whole brand redesigns. Approximately 6 months after my employment as a contractor, I became a full time employee of the company and was promoted to the lead position of my team. Besides development work, my expanded responsibilities included estimating the time and scope of all the projects submitted to my team, coordinating workload bandwidth with project managers, meeting with technical account managers and clients, and assisting the other developers on the team with their work. I acquired familiarity with new languages like JAVA, XML and SASS while maintaining proficiency with older JavaScript libraries such as Prototype and jQuery 1.6 (and older), as these were also common place among client sites that had not been updated in years. Expanded knowledge of these languages honed my ability to find and squash the worst of display bugs, especially in IE7.</p>
@@ -131,8 +131,7 @@
   <li>Created patterns using Java templates and SASS to apply cross-client</li>
   <li>Lead team responsible for dozens of clients' project requests that required under 40 hours of development time</li>
   </ul>
-  <p class="job-link"><a href="http://trueaction.com/">http://trueaction.com/</a><br />
-  <a href="http://www.ebayenterprise.com/">http://www.ebayenterprise.com/</a></p>
+  <p class="job-link"><a href="https://www.ebayenterprise.com/">https://www.ebayenterprise.com/</a></p>
   <div class="job-projects">
   <h4>UxD Small Projects Team Lead</h4>
   <h5>Team Lead Developer <span>January 2015 to April 2016</span></h5>
@@ -192,8 +191,7 @@
   <li>Using HTML and CSS, coded many email campaigns sent to millions of IKEA customers</li>
   <li>Using jQuery, HTML5, and CSS3, created an interactive magaizine experience for IKEA, which won many ADDY and WEBBY awards</li>
   </ul>
-  <p class="job-link"><a href="http://trueaction.com/">http://www.brownsteingroup.com</a><br />
-  <a href="http://trueaction.com/">http://m.brownsteingroup.com</a></p>
+  <p class="job-link"><a href="https://www.brownsteingroup.com/">https://www.brownsteingroup.com/</a></p>
   <div class="job-projects">
   <h4>IKEA Interactive Seasonal Catalog</h4>
   <h5>Web Developer <span>May 2012 to May 2013</span></h5>
@@ -274,6 +272,8 @@
   </ul>
 
 </div>
+<div class="container">
+<div class="w-50">
 <div id="education" class="section-container">
 
 <div class="section-header">
@@ -287,6 +287,8 @@
   </p>
 
 </div>
+</div>
+<div class="w-50">
 <div id="hobbies" class="section-container">
 
 <div class="section-header">
@@ -295,11 +297,13 @@
 
   <ul>
   <li>Photography</li>
-  <li>Web Design / Human Computer Interaction</li>
-  <li>Recreational Sports</li>
+  <li>UX Design / Human Computer Interaction</li>
+  <li>Recreational Softball &amp; Hockey</li>
   <li>Wing Chun Kung Fu</li>
   <li>Live Music</li>
   <li>Smart Home development</li>
   </ul>
 
 </div><!-- End Hobbies -->
+</div>
+</div>
