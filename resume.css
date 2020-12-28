@@ -289,30 +289,28 @@ div.job-container > ul > li + li {
 }
 /* CV Projects */
 div.job-container > div.job-projects {
+  margin-left: 75px;
   margin-top: 10px;
+  padding-bottom: 15px;
 }
 div.job-container > div.job-projects > h4 {
-  margin: 0 0 5px 75px;
-  font-size: 1.7em;
+  margin-bottom: 5px;
+  font-size: 1.3em;
   font-weight: 300;
 }
-div.job-container > div.job-projects > h4 > span {
-  font-size: 0.65em;
-  font-weight: 700;
-}
 div.job-container > div.job-projects > h5 {
-  margin: 0 0 5px 75px;
-  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-size: 1.2em;
   font-weight: 300;
 }
 div.job-container > div.job-projects > h5 > span {
-  color: #2ec4b6;
-  font-size: 0.6em;
+  color: #1976d2;
+  font-size: 0.7em;
   font-weight: 700;
 }
 div.job-container > div.job-projects > p {
-  margin: 0 0 15px 75px;
   margin-bottom: 15px;
+  font-size: 1em;
 }
 /* END CV Projects */
 
@@ -438,6 +436,19 @@ div.job-container > div.job-projects > h4::before {
   }
   div.job-header > h4 > span {
     font-size: 1.1em;
+  }
+  div.job-container > div.job-projects > h4 {
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+  div.job-container > div.job-projects > h5 {
+    font-size: 1em;
+  }
+  div.job-container > div.job-projects > h5 > span {
+    font-size: 0.7em;
+  }
+  div.job-container > div.job-projects > p {
+    font-size: 1em;
   }
 
   #hobbies > ul > li::before,
