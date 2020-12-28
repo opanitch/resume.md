@@ -40,7 +40,7 @@
 
 <div id="intro" class="section-container">
 
-  <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building & debugging to managing teams of up to 5 developers, my talents range from architecting modular development suites, building process workflows, and conceptualized c-level designs into live products. In turn, the businesses have reported successful launches of multi-million user applications, increases in application performances, decreases in cost to maintain code bases/less recurring errors, decreased risk exposure within release cycles, and decreased cost of poor quality.</p>
+  <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building and debugging to managing teams of up to 5 developers, my talents range from architecting modular development suites, building process workflows, and conceptualizing c-level designs into live products. In turn, the businesses have reported successful launches of multi-million user applications, increases in application performance, decreases in cost to maintain code bases with fewer recurring errors, decreased risk exposure within release cycles, and decreased cost of poor quality.</p>
 
   <p>My recent experience involves <span>React</span> / <span>Redux</span>, <span>Typescript</span>, and <span>Tailwind</span>, using an <span>Enzyme</span> / <span>Jest</span> testing suite, running in a <span>Node.js</span> / <span>npm</span> environment.  Additional code experience includes <span>HTML5</span>, <span>CSS3</span> / <span>LESS</span> / <span>SASS</span>, <span>Javascript ECMA6</span>, <span>jQuery</span>, <span>PHP</span>, <span>JAVA (JSP / JSTL)</span>, <span>Lovelace</span>, <span>YAML</span>, <span>JSON</span>, <span>Git</span>, <span>Bash</span>, <span>Gulp</span>, and <span>WordPress</span></p>
 
@@ -59,10 +59,10 @@
   </div>
   <p class="job-description">As a contracted member of Comcast’s xFi Team, I had the privilege of working on Syndicating one of the flagship Xfinity App offerings. Originally built on the Polymer framework and a Redux architecture, Comcast had around 900 thousand weekly users at the time I started. Using a combination of build processes involving Webpack, gulp, and Node, I helped create an assets library and architecture to support multiple Syndication Partners. Once the assets were prepared, I helped configure our Jenkins pipeline using YAML mortal files to run all our build steps and tests, and then publish to an OpenCloud instance. The build process accepts a variable to designate which assets and themes to use, enabling Comcast’s xFi platform to run in 4 different countries, 4 languages, and 22 million more potential users. After the second official partner launch, the team was reassigned and became the Coverage Team, which oversaw pre-mesh Self-service WiFi and the React Migration. I used Polymer 1, React, Redux, and Webpack to re-architect the xFi project and lay the proper pattern foundations. After the Self WiFi work was completed, I was assigned to the Web Infrastructure team, where I used React, Typescript, Tailwind, and our Webpack config to continue implementing the React migration and architecture-level updates to our Dev Tools. Once Polymer became a fallback framework, we were able to optimize our load bundles and assets. This, along with Tailwind and strict implementation of Typing, reduced load-time from initial request to ready by 10 seconds on our heaviest page. By December 2020, the Xfinity App was used by almost 2.3 million weekly users. Working on this team allowed me to grow my code knowledge, understand the far-reaching implications of project architecture, and take the lead on implementing critical tools needed to develop a modern web application.</p>
   <ul>
-  <li>Built, optimized, and maintianced a React/Redux web app architecture to handle a growth of 900k to 2.3MM weekly users.</li>
-  <li>Created and implemented an asset pipeline & architecture using Webpack and Gulp to syndicate the application platform for multiple partners, including 4 countries, 4 languages, and 22 million additional potential users.</li>
+  <li>Built, optimized, and maintained a React/Redux web app architecture to handle a growth of 900k to 2.3MM weekly users.</li>
+  <li>Created and implemented an asset pipeline and architecture using Webpack and Gulp to syndicate the application platform for multiple partners, including 4 countries, 4 languages, and 22 million additional potential users.</li>
   <li>Lead team through refactoring and React migration efforts that saved 11 seconds from Page Ready load timings, improving performance by 70%.</li>
-  <li>Created and implemented architecture-level Dev Tooling along with new standard operating processes via Typescript and Tailwind. These efforts increased productivity and reduced defects with data handling saving the team over 40 hours per month in development time.</li>
+  <li>Created and implemented architecture-level Dev Tooling along with new standard operating processes via Typescript and Tailwind. These efforts increased productivity and reduced defects with data handling, saving the team over 40 hours per month in development time.</li>
   </ul>
   <p class="job-link"><a href="https://internet.xfinity.com/">https://internet.xfinity.com/</a></p>
 </div>
@@ -74,10 +74,10 @@
   </div>
   <p class="job-description">As a contractor, I joined the Comcast Business team through Comcast’s Front-end Development (FED) department. As a member of FED, I helped to drive innovation and modern standards in User Interface (UI) development on top of the regular project work of the Comcast Business department to which I was assigned. About a year later, the FED department was split up and I assumed a leading role in the Legacy My Account application UI and Site Unification effort. We used a Microsoft stack of .Net / Razor backend, Sitecore content management system (CMS), and a Node.js / Gulp / SASS driven Front End using KnockoutJS for dynamic UI changes and Pattern Lab for templating. After the Site Unification ReArch project, I was assigned to another team to accrue experience using a React / Redux architecture that was going to be the standard for all new projects. Working in a modern and well-structured environment allowed me to learn better JS coding conventions, modular/componentized architecture and pattern development, and debugging methods.</p>
   <ul>
+  <li>Created and developed SDWAN, net new product offering within Comcast Businesses, generating $5MM+ in revenue annually. SDWAN is a cloud based networking solution enabling companies to easily manage their network, saving them money on expensive in-house engineers.</li>
   <li>Built and maintained an enterprise user portal with over 2 million subscribers, using Node.js to compile a Knockout.js Front-end with a .Net architecture.</li>
-  <li>Drove innovation and modern UI standards in development during Front-end migration to React/Redux architecture.</li>
+  <li>Drove innovation and modern UI standards in development during Front-end migration to React/Redux architecture. These upgrades created reusable code patterns that helped with decreasing development time, maintenance costs, and the appearance of critical defects.</li>
   <li>Lead development of common styles update to the entire Business My Account suite to align with the rest of Comcast consumer and enterprise properties.</li>
-  <li>Developed greenfield SDWAN offering from Comcast Business, enabling subscribing businesses to easily manage their networks and saving them hundreds of thousands of dollars per year.</li>
   </ul>
   <p class="job-link"><a href="https://business.comcast.com/myaccount/">https://business.comcast.com/myaccount/</a></p>
   <div class="job-projects">
@@ -126,10 +126,10 @@
   </div>
   <p class="job-description">I started at True Action as a contractor as the company began its reorganization and rebranding effort after being bought by eBay in 2011. I began working on Global Sports Inc’s JAVA based v9/v10 platform where I worked on large brands such as Dick’s Sporting Goods, Speedo, iRobot, and many more. Projects ranged in scope from small content updates to feature additions including product page zooms and Express Shop overlays, and redesigns including everything from page redesigns to whole brand redesigns. Approximately 6 months after my employment as a contractor, I became a full time employee of the company and was promoted to the lead position of my team. Besides development work, my expanded responsibilities included estimating the time and scope of all the projects submitted to my team, coordinating workload bandwidth with project managers, meeting with technical account managers and clients, and assisting the other developers on the team with their work. I acquired familiarity with new languages like JAVA, XML and SASS while maintaining proficiency with older JavaScript libraries such as Prototype and jQuery 1.6 (and older), as these were also common place among client sites that had not been updated in years. Expanded knowledge of these languages honed my ability to find and squash the worst of display bugs, especially in IE7.</p>
   <ul>
-  <li>Lead team of 3 developers, responsible for dozens of clients' project requests that required under 40 hours of development time.</li>
-  <li>Built and maintained a Java-based legacy e-commerce platform used by major retailers, such as Dick’s Sporting Goods, Speedo and iRobot, to reach 10s of millions in sales annually</li>
-  <li>Utilized Javascript and the libraries jQuery and Prototype to implement feature functionality on client websites, such as Quick Shop and Product Image Zoom, to increase sales performance year over year.</li>
-  <li>Created patterns using Java templates and SASS to apply cross-client to decrease development time by up to 50%, saving 6-8 hours per week.</li>
+  <li>Lead and managed the UX Development Team, responsible for building and maintaining 21+ e-commerce stores.  In addition to typical code development, I estimated project efforts and lead code reviews for the 5 developers on the team.</li>
+  <li>Built and maintained a Java-based e-commerce platform used by 250+ major retailers, such as Dick’s Sporting Goods, Speedo and iRobot. The platform was responsible for catalyzing the sales of $XXXBB in annual revenue.</li>
+  <li>Utilized Javascript, jQuery, and Prototype.js to create new web features like Quick Shop, Product Image Zoom, and Dynamic Product Filtering, which increased sales performance by 82% pre/post.</li>
+  <li>Created modular code snippets using Java templates and SASS implemented across our book of business. In turn, my team saw a maintenance savings of 50%, or 6-8 hours per developer per week.</li>
   </ul>
   <p class="job-link"><a href="https://www.ebayenterprise.com/">https://www.ebayenterprise.com/</a></p>
   <div class="job-projects">
@@ -186,10 +186,10 @@
   </div>
   <p class="job-description">The Brownstein Group is a highly recognized advertising agency in center city Philadelphia with a client list that includes notable businesses like IKEA, Microsoft, Comcast, and Einstein Healthcare Network. While at Brownstein, I created multiple weeks of mobile advertisements using Adobe Flash. These included static animation banners as well as fully interactive experiences. I created multiple micro-sites for clients like IKEA for several of their campaigns, and even created a Facebook page for their brand. These pages ranged in difficulty from single page sites to a fully interactive website that hosted a branded web series. I also coded many email blasts that are sent out for weekly or seasonal sales. While employed at Brownstein, I focused on my work in JavaScript and the extensive jQuery library.</p>
   <ul>
-  <li>Created multiple weeks of mobile advertisements, static and interactive, for clients like IKEA and Einstein Healthcare using Adobe Flash that were seen by 10s of millions of people</li>
-  <li>Created and maintained multiple micro-sites and Facebook pages for client brands</li>
-  <li>Using HTML and CSS, coded many email campaigns sent to millions of IKEA customers</li>
-  <li>Using jQuery, HTML5, and CSS3, created an interactive magaizine experience for IKEA, which won many ADDY and WEBBY awards</li>
+  <li>Created multiple weeks of mobile advertisements, static and interactive, for clients like IKEA and Einstein Healthcare using Adobe Flash that were seen by 10s of millions of people.</li>
+  <li>Created and maintained multiple micro-sites and social media pages for client brands.</li>
+  <li>Coded email campaigns using HTML and CSS that were sent to millions of IKEA customers.</li>
+  <li>Created an interactive magazine experience for IKEA using jQuery, HTML5, and CSS3, which won many ADDY and WEBBY awards.</li>
   </ul>
   <p class="job-link"><a href="https://www.brownsteingroup.com/">https://www.brownsteingroup.com/</a></p>
   <div class="job-projects">
@@ -255,7 +255,7 @@
 <div id="honors" class="section-container">
 
 <div class="section-header">
-<h2><span class="icon"><img src="./images/icons/trophy.svg" /></span>Honors & Awards</h2>
+<h2><span class="icon"><img src="./images/icons/trophy.svg" /></span>Honors &amp; Awards</h2>
 </div>
 
   <ul>
