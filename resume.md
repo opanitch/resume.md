@@ -40,9 +40,9 @@
 
 <div id="intro" class="section-container">
 
-  <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building & debugging to managing teams of up to 5 developers, my talents range from building process workflows that decrease development time and costs, conceptualizing c-level designs into live products, and architecting modular development suites for improved application performance. My recent experience involves React / Redux, Typescript, and Tailwind, using an Enzyme / Jest testing suite, running in a Node.js / npm environment.</p>
+  <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building & debugging to managing teams of up to 5 developers, my talents range from architecting modular development suites, building process workflows, and conceptualized c-level designs into live products. In turn, the businesses have reported successful launches of multi-million user applications, increases in application performances, decreases in cost to maintain code bases/less recurring errors, decreased risk exposure within release cycles, and decreased cost of poor quality.</p>
 
-  <p>Other relevant code experience includes HTML5, CSS3 / LESS / SASS, Javascript ECMA6, jQuery, PHP, JAVA (JSP / JSTL), Lovelace, YAML, JSON, Git, Bash, Gulp, and WordPress</p>
+  <p>My recent experience involves <span>React</span> / <span>Redux</span>, <span>Typescript</span>, and <span>Tailwind</span>, using an <span>Enzyme</span> / <span>Jest</span> testing suite, running in a <span>Node.js</span> / <span>npm</span> environment.  Additional code experience includes <span>HTML5</span>, <span>CSS3</span> / <span>LESS</span> / <span>SASS</span>, <span>Javascript ECMA6</span>, <span>jQuery</span>, <span>PHP</span>, <span>JAVA (JSP / JSTL)</span>, <span>Lovelace</span>, <span>YAML</span>, <span>JSON</span>, <span>Git</span>, <span>Bash</span>, <span>Gulp</span>, and <span>WordPress</span></p>
 
 </div>
 
@@ -74,10 +74,10 @@
   </div>
   <p class="job-description">As a contractor, I joined the Comcast Business team through Comcast’s Front-end Development (FED) department. As a member of FED, I helped to drive innovation and modern standards in User Interface (UI) development on top of the regular project work of the Comcast Business department to which I was assigned. About a year later, the FED department was split up and I assumed a leading role in the Legacy My Account application UI and Site Unification effort. We used a Microsoft stack of .Net / Razor backend, Sitecore content management system (CMS), and a Node.js / Gulp / SASS driven Front End using KnockoutJS for dynamic UI changes and Pattern Lab for templating. After the Site Unification ReArch project, I was assigned to another team to accrue experience using a React / Redux architecture that was going to be the standard for all new projects. Working in a modern and well-structured environment allowed me to learn better JS coding conventions, modular/componentized architecture and pattern development, and debugging methods.</p>
   <ul>
-  <li>Worked in a .Net architecture with a Node.js environment to build and maintain a user portal with over 2 million subscribers</li>
-  <li>Helped to drive innovation and modern standards in UI development</li>
-  <li>Lead effort to update the styles of My Account UI with Comcast-wide theme</li>
-  <li>Helped create initial SDWAN offering from Comcast Business, now known as ActiveCore SDN</li>
+  <li>Built and maintained an enterprise user portal with over 2 million subscribers, using Node.js to compile a Knockout.js Front-end with a .Net architecture.</li>
+  <li>Drove innovation and modern UI standards in development during Front-end migration to React/Redux architecture.</li>
+  <li>Lead development of common styles update to the entire Business My Account suite to align with the rest of Comcast consumer and enterprise properties.</li>
+  <li>Developed greenfield SDWAN offering from Comcast Business, enabling subscribing businesses to easily manage their networks and saving them hundreds of thousands of dollars per year.</li>
   </ul>
   <p class="job-link"><a href="https://business.comcast.com/myaccount/">https://business.comcast.com/myaccount/</a></p>
   <div class="job-projects">
@@ -126,10 +126,10 @@
   </div>
   <p class="job-description">I started at True Action as a contractor as the company began its reorganization and rebranding effort after being bought by eBay in 2011. I began working on Global Sports Inc’s JAVA based v9/v10 platform where I worked on large brands such as Dick’s Sporting Goods, Speedo, iRobot, and many more. Projects ranged in scope from small content updates to feature additions including product page zooms and Express Shop overlays, and redesigns including everything from page redesigns to whole brand redesigns. Approximately 6 months after my employment as a contractor, I became a full time employee of the company and was promoted to the lead position of my team. Besides development work, my expanded responsibilities included estimating the time and scope of all the projects submitted to my team, coordinating workload bandwidth with project managers, meeting with technical account managers and clients, and assisting the other developers on the team with their work. I acquired familiarity with new languages like JAVA, XML and SASS while maintaining proficiency with older JavaScript libraries such as Prototype and jQuery 1.6 (and older), as these were also common place among client sites that had not been updated in years. Expanded knowledge of these languages honed my ability to find and squash the worst of display bugs, especially in IE7.</p>
   <ul>
-  <li>Built and maintained a Java-based e-commerce platform used by major retailers, such as Dick’s Sporting Goods, Speedo and iRobot, to reach 10s of millions in sales annually</li>
-  <li>Utilized Javascript and the libraries jQuery and Prototype to implement feature functionality on client websites, such as Quick Shop and Product Image Zoom</li>
-  <li>Created patterns using Java templates and SASS to apply cross-client</li>
-  <li>Lead team responsible for dozens of clients' project requests that required under 40 hours of development time</li>
+  <li>Lead team of 3 developers, responsible for dozens of clients' project requests that required under 40 hours of development time.</li>
+  <li>Built and maintained a Java-based legacy e-commerce platform used by major retailers, such as Dick’s Sporting Goods, Speedo and iRobot, to reach 10s of millions in sales annually</li>
+  <li>Utilized Javascript and the libraries jQuery and Prototype to implement feature functionality on client websites, such as Quick Shop and Product Image Zoom, to increase sales performance year over year.</li>
+  <li>Created patterns using Java templates and SASS to apply cross-client to decrease development time by up to 50%, saving 6-8 hours per week.</li>
   </ul>
   <p class="job-link"><a href="https://www.ebayenterprise.com/">https://www.ebayenterprise.com/</a></p>
   <div class="job-projects">
