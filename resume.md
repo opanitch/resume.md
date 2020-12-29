@@ -42,7 +42,7 @@
 
   <p>Award winning UX developer dedicated to building, optimizing, and innovating the performance of user-centric web applications. From building and debugging to managing teams of up to 5 developers, my talents range from architecting modular development suites, building process workflows, and conceptualizing c-level designs into live products. In turn, the businesses have reported successful launches of multi-million user applications, increases in application performance, decreases in cost to maintain code bases with fewer recurring errors, decreased risk exposure within release cycles, and decreased cost of poor quality.</p>
 
-  <p>My recent experience involves <span>React</span> / <span>Redux</span>, <span>Typescript</span>, and <span>Tailwind</span>, using an <span>Enzyme</span> / <span>Jest</span> testing suite, running in a <span>Node.js</span> / <span>npm</span> environment.  Additional code experience includes <span>HTML5</span>, <span>CSS3</span> / <span>LESS</span> / <span>SASS</span>, <span>Javascript ECMA6</span>, <span>jQuery</span>, <span>PHP</span>, <span>JAVA (JSP / JSTL)</span>, <span>Lovelace</span>, <span>YAML</span>, <span>JSON</span>, <span>Git</span>, <span>Bash</span>, <span>Gulp</span>, and <span>WordPress</span></p>
+  <p>My recent experience involves <span>React</span> / <span>Redux</span>, <span>Typescript</span>, and <span>Tailwind</span>, using an <span>Enzyme</span> / <span>Jest</span> / <span>Mocha</span> testing suite, running in a <span>Node.js</span> / <span>npm</span> environment.  Additional code experience includes <span>HTML5</span>, <span>CSS3</span> / <span>LESS</span> / <span>SASS</span>, <span>Javascript ECMA6</span>, <span>jQuery</span>, <span>PHP</span>, <span>JAVA (JSP / JSTL)</span>, <span>Lovelace</span>, <span>YAML</span>, <span>JSON</span>, <span>Git</span>, <span>Bash</span>, <span>Gulp</span>, and <span>WordPress</span></p>
 
 </div>
 
@@ -61,7 +61,8 @@
   <ul>
   <li>Built, optimized, and maintained a React/Redux web app architecture to handle a growth of 900k to 2.3MM weekly users.</li>
   <li>Created and implemented an asset pipeline and architecture using Webpack and Gulp to syndicate the application platform for multiple partners, including 4 countries, 4 languages, and 22 million additional potential users.</li>
-  <li>Lead team through refactoring and React migration efforts that saved 11 seconds from Page Ready load timings, improving performance by 70%.</li>
+  <li>Led team through refactoring and React migration efforts that saved 11 seconds from Page Ready load timings, improving performance by 70%.</li>
+  <li>Maintained and expanded a Webview message bridge used to pass information between the web platform and the native mobile application.  This Webview enabled rapid development and release of new features with consistent experiences across platforms, reaching the largest possible userbase.</li>
   <li>Created and implemented architecture-level Dev Tooling along with new standard operating processes via Typescript and Tailwind. These efforts increased productivity and reduced defects with data handling, saving the team over 40 hours per month in development time.</li>
   </ul>
   <p class="job-link"><a href="https://internet.xfinity.com/">https://internet.xfinity.com/</a></p>
@@ -77,7 +78,7 @@
   <li>Created and developed SDWAN, net new product offering within Comcast Businesses, generating $5MM+ in revenue annually. SDWAN is a cloud based networking solution enabling companies to easily manage their network, saving them money on expensive in-house engineers.</li>
   <li>Built and maintained an enterprise user portal with over 2 million subscribers, using Node.js to compile a Knockout.js Front-end with a .Net architecture.</li>
   <li>Drove innovation and modern UI standards in development during Front-end migration to React/Redux architecture. These upgrades created reusable code patterns that helped with decreasing development time, maintenance costs, and the appearance of critical defects.</li>
-  <li>Lead development of common styles update to the entire Business My Account suite to align with the rest of Comcast consumer and enterprise properties.</li>
+  <li>Led development of common styles update to the entire Business My Account suite to align with the rest of Comcast consumer and enterprise properties.</li>
   </ul>
   <p class="job-link"><a href="https://business.comcast.com/myaccount/">https://business.comcast.com/myaccount/</a></p>
   <div class="job-projects">
@@ -126,7 +127,7 @@
   </div>
   <p class="job-description">I started at True Action as a contractor as the company began its reorganization and rebranding effort after being bought by eBay in 2011. I began working on Global Sports Inc’s JAVA based v9/v10 platform where I worked on large brands such as Dick’s Sporting Goods, Speedo, iRobot, and many more. Projects ranged in scope from small content updates to feature additions including product page zooms and Express Shop overlays, and redesigns including everything from page redesigns to whole brand redesigns. Approximately 6 months after my employment as a contractor, I became a full time employee of the company and was promoted to the lead position of my team. Besides development work, my expanded responsibilities included estimating the time and scope of all the projects submitted to my team, coordinating workload bandwidth with project managers, meeting with technical account managers and clients, and assisting the other developers on the team with their work. I acquired familiarity with new languages like JAVA, XML and SASS while maintaining proficiency with older JavaScript libraries such as Prototype and jQuery 1.6 (and older), as these were also common place among client sites that had not been updated in years. Expanded knowledge of these languages honed my ability to find and squash the worst of display bugs, especially in IE7.</p>
   <ul>
-  <li>Lead and managed the UX Development Team, responsible for building and maintaining 21+ e-commerce stores.  In addition to typical code development, I estimated project efforts and lead code reviews for the 5 developers on the team.</li>
+  <li>Led and managed the UX Development Team, responsible for building and maintaining 21+ e-commerce stores.  The lead role involved code development, estimating project efforts, and conducting code reviews for the 5 developers on the team.</li>
   <li>Built and maintained a Java-based e-commerce platform used by 250+ major retailers, such as Dick’s Sporting Goods, Speedo and iRobot. The platform was responsible for catalyzing the sales of $XXXBB in annual revenue.</li>
   <li>Utilized Javascript, jQuery, and Prototype.js to create new web features like Quick Shop, Product Image Zoom, and Dynamic Product Filtering, which increased sales performance by 82% pre/post.</li>
   <li>Created modular code snippets using Java templates and SASS implemented across our book of business. In turn, my team saw a maintenance savings of 50%, or 6-8 hours per developer per week.</li>
