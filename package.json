@@ -1,0 +1,22 @@
+{
+  "name": "resume.md",
+  "version": "2.5.0",
+  "description": "![Resume](resume.png)",
+  "main": "resume.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opanitch/resume.md.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Oren Panitch <oren@opanitch.com> (opanitch.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opanitch/resume.md/issues"
+  },
+  "homepage": "https://github.com/opanitch/resume.md#readme"
+}
