@@ -468,17 +468,96 @@ div.job-container > div.job-projects > h4::before {
 @media screen and (max-width: 800px) {
   body {
     font-size: 16pt;
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0;
-    background: #ffffff !important;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  ul {
+    font-size: 0.85em;
   }
   #curriculum-vitae,
   #resume {
     margin: 0;
     padding: 1em;
     background-color: none;
-    border-width: 0px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  }
+
+  .w-50 {
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  #header {
+    flex-direction: column;
+  }
+  #header > div.identity > div > h1 {
+    width: 100%;
+    font-size: 2.5em;
+  }
+  #header > ul {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #header > ul > li {
+    width: 184px;
+    margin-top: 15px !important;
+  }
+
+  div.job-header {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.4em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+
+  #header > div.identity > img {
+    width: 85px;
+  }
+  #header > div.identity > div > h1 {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .section-header > h2 > .icon {
+    width: 35px;
+    height: 35px;
+  }
+  .section-header > h2 > .icon > img {
+    width: 20px;
+    height: 20px;
+  }
+
+  div.job-container {
+    margin-left: 45px;
+  }
+  div.job-header > h3 {
+    font-size: 1.3em;
+  }
+  div.job-header > h4 {
+    font-size: 0.6em;
+  }
+
+  #honors > ul,
+  #education > p,
+  #hobbies > ul {
+    padding-left: 45px;
   }
 }
