@@ -23,13 +23,13 @@
     </a>
     </li>
     <li>
-    <a href="http://opanitch.com">
+    <a href="https://www.opanitch.com" target="_blank">
     <span class="icon"><img src="./images/icons/web.svg" alt="website" /></span>
     <span>opanitch.com</span>
     </a>
     </li>
     <li>
-    <a href="mailto:oren@opanitch.com">
+    <a href="https://www.linkedin.com/in/opanitch/" target="_blank">
     <span class="icon"><img src="./images/icons/linkedin.svg" alt="linkedin" /></span>
     <span>in/opanitch</span>
     </a>
@@ -262,14 +262,13 @@
   <ul>
   <li>Xfinity xFi – Best User Interface, WEBBY Award Nominee, <span>2018</span></li>
   <li>Xfinity xFi – MSO Product Launch of the Year, Top Ops Awards, <span>2018</span></li>
-  <li>Xfinity xFi – Platinum Design Award, A'Design Award &amp; Competition, <span>2018</span></li>
   <li>Comcast Business SD-WAN – TMC Internet/Telephony Product of the Year, <span>2018</span></li>
   <li>Comcast Business VoiceEdge – TMC Communications Solutions Product of the Year, <span>2018</span></li>
   <li>Comcast Business Ethernet – MEF Enterprise Application Awards in Sports &amp; Health, <span>2017</span></li>
-  <li>IKEA Interactive Seasonal Catalog – WEBBY Award Honoree</li>
+  <li>IKEA Interactive Seasonal Catalog – WEBBY Award Honoree, <span>2013</span></li>
   <li>IKEA Interactive Seasonal Catalog (Consumer - Products), Gold ADDY Award, <span>2013</span></li>
   <li>IKEA Easy to Assemble Website (Consumer - Outlets), Silver ADDY Award, <span>2013</span></li>
-  <li>IKEA New Movers Microsite - Products, Gold ADDY Award, <span>2013</span></li>
+  <li>IKEA New Movers Microsite (Products), Gold ADDY Award, <span>2013</span></li>
   </ul>
 
 </div>
